@@ -2,28 +2,46 @@
   "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "engines": {
+    "node": "^18 || ^20"
+  },
+  "lint-staged": {
+    "*.{json,js,jsx,md,scss,ts,tsx,css,yml,yaml}": "prettier --write"
+  },
   "scripts": {
     "build": "turbo run build",
     "build:main": "turbo run build --filter=main...",
     "build:docs": "turbo run build --filter=docs...",
     "dev": "turbo run dev",
-    "start": "turbo run start",
-    "clean": "turbo run clean && rm -rf node_modules",
     "lint": "turbo run lint",
+    "start": "turbo run start",
+    "clean": "turbo run clean",
+    "reset": "pnpm store prune && rm -rf node_modules apps/*/node_modules packages/*/node_modules",
     "format": "prettier --write .",
+    "update:dedupe": "pnpm dedupe",
+    "update:latest": "pnpm update --interactive --latest",
     "changeset": "changeset",
     "version-packages": "changeset version",
+    "prepare": "husky install",
     "release": "turbo run build --filter=main... && changeset publish"
   },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
     "@types/node": "^18.16.16",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
     "prettier": "^2.8.8",
     "turbo": "^1.10.1"
-  },
-  "packageManager": "pnpm@7.15.0"
+  }
 }
