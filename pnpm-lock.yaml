@@ -125,8 +125,8 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1
       clsx:
-        specifier: ^1.2.1
-        version: 1.2.1
+        specifier: ^2.0.0
+        version: 2.1.0
       next:
         specifier: '*'
         version: 13.4.4(@babel/core@7.21.4)(react-dom@18.2.0)(react@18.2.0)
@@ -174,8 +174,8 @@ importers:
         specifier: ^1.0.5
         version: 1.0.5(next@13.4.4)(react-dom@18.2.0)(react@18.2.0)
       clsx:
-        specifier: ^1.2.1
-        version: 1.2.1
+        specifier: ^2.0.0
+        version: 2.1.0
       next:
         specifier: '*'
         version: 13.4.4(@babel/core@7.21.4)(react-dom@18.2.0)(react@18.2.0)
@@ -2289,6 +2289,11 @@ packages:
 
   /clsx@1.2.1:
     resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /clsx@2.1.0:
+    resolution: {integrity: sha512-m3iNNWpd9rl3jvvcBnu70ylMdrXt8Vlq4HYadnU5fwcOtvkSQWPmj7amUcDT2qYI7risszBjI5AUIUox9D16pg==}
     engines: {node: '>=6'}
     dev: false
 

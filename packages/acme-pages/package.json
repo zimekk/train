@@ -50,7 +50,7 @@
     "@acme/design-system": "workspace:*",
     "@swc/helpers": "^0.5.1",
     "@vercel/examples-ui": "^1.0.5",
-    "clsx": "^1.2.1"
+    "clsx": "^2.0.0"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.62",
