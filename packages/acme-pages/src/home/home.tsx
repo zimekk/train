@@ -4,6 +4,7 @@ import { Button, Quote } from '@acme/design-system'
 // import { matchingTextColor, randomColor } from '@acme/utils'
 import Navbar from '../components/navbar'
 import Stations from './stations'
+import Trains from './trains'
 
 export default function Home(): React.ReactNode {
   // const [bgColor, setBgColor] = useState('')
@@ -20,6 +21,7 @@ export default function Home(): React.ReactNode {
     <Page>
       <Navbar />
       <Stations />
+      <Trains />
       <Text variant="h1" className="mb-6">
         Microfrontends
       </Text>
