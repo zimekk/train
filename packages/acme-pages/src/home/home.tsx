@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react'
+// import { useState, useEffect } from 'react'
 import { Layout, Page, Text, Code, Link, Snippet } from '@vercel/examples-ui'
 import { Button, Quote } from '@acme/design-system'
 // import { matchingTextColor, randomColor } from '@acme/utils'
 import Navbar from '../components/navbar'
+import Stations from './stations'
 
 export default function Home(): React.ReactNode {
   // const [bgColor, setBgColor] = useState('')
@@ -18,6 +19,7 @@ export default function Home(): React.ReactNode {
   return (
     <Page>
       <Navbar />
+      <Stations />
       <Text variant="h1" className="mb-6">
         Microfrontends
       </Text>
