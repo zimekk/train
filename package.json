@@ -23,6 +23,7 @@
     "clean": "turbo run clean",
     "reset": "pnpm store prune && rm -rf node_modules apps/*/node_modules packages/*/node_modules",
     "format": "prettier --write .",
+    "update:browserlist": "pnpm update caniuse-lite -r",
     "update:dedupe": "pnpm dedupe",
     "update:latest": "pnpm update --interactive --latest",
     "changeset": "changeset",

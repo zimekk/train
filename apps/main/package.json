@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "clean": "rm -rf .next && rm -rf .turbo"
+    "clean": "rm -rf .next && rm -rf .turbo",
+    "prepare": "next telemetry disable"
   },
   "dependencies": {
     "@acme/design-system": "workspace:*",
