@@ -1,19 +1,19 @@
 import { useState, useEffect } from 'react'
 import { Layout, Page, Text, Code, Link, Snippet } from '@vercel/examples-ui'
 import { Button, Quote } from '@acme/design-system'
-import { matchingTextColor, randomColor } from '@acme/utils'
+// import { matchingTextColor, randomColor } from '@acme/utils'
 import Navbar from '../components/navbar'
 
 export default function Home(): React.ReactNode {
-  const [bgColor, setBgColor] = useState('')
-  const [textColor, setTextColor] = useState('')
-  const changeColor = () => {
-    const bg = randomColor()
-    setBgColor(bg)
-    setTextColor(matchingTextColor(bg))
-  }
+  // const [bgColor, setBgColor] = useState('')
+  // const [textColor, setTextColor] = useState('')
+  // const changeColor = () => {
+  //   const bg = randomColor()
+  //   setBgColor(bg)
+  //   setTextColor(matchingTextColor(bg))
+  // }
 
-  useEffect(changeColor, [])
+  // useEffect(changeColor, [])
 
   return (
     <Page>
@@ -39,11 +39,11 @@ export default function Home(): React.ReactNode {
         Example of how you could build a Design System, it&apos;s a set of React
         Components that ship with CSS Modules.
       </Text>
-      {bgColor && textColor && (
-        <>
-          <Button className="mb-4">This is a button</Button>
-        </>
-      )}
+      {/* {bgColor && textColor && ( */}
+      <>
+        <Button className="mb-4">This is a button</Button>
+      </>
+      {/* )} */}
       <Quote className="mb-4">
         This is the <Code>Quote</Code> component in the design system.
       </Quote>
@@ -60,7 +60,7 @@ export default function Home(): React.ReactNode {
         <Code>packages/acme-pages/src/home</Code> and imported by{' '}
         <Code>apps/main/pages/index.tsx</Code>.
       </Text>
-      <Text variant="h2" className="mt-10 mb-6">
+      {/* <Text variant="h2" className="mt-10 mb-6">
         packages/acme-utils
       </Text>
       <Text className="mb-4">This package exports utility functions.</Text>
@@ -82,7 +82,7 @@ export default function Home(): React.ReactNode {
             Change Color
           </Button>
         </>
-      )}
+      )} */}
       <Text variant="h2" className="mt-10 mb-6">
         apps/docs (Multi Zones)
       </Text>
