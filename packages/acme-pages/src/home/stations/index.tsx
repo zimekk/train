@@ -14,6 +14,8 @@ const createItem = () => ({
 
 type Item = ReturnType<typeof createItem>
 
+const formatItem = (item: Item) => `${item.city} ${item.name}`
+
 function Field({
   item,
   label,
@@ -82,28 +84,6 @@ export default function Stations(): ReactElement {
 
   return (
     <form onSubmit={handleSubmit} className="mb-6">
-      <div className="grid gap-6 mb-4 md:grid-cols-2">
-        <Field
-          item={item}
-          label="City"
-          name="city"
-          placeholder="eg. Białystok"
-          onChange={handleChange}
-        />
-        <Field
-          item={item}
-          label="Station name"
-          name="name"
-          placeholder="eg. Zielone Wzgórza"
-          onChange={handleChange}
-        />
-        <button
-          type="submit"
-          className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
-        >
-          Add
-        </button>
-      </div>
       <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
         {list.map((item, index) => (
           <li className="flex items-center" key={index}>
@@ -128,10 +108,32 @@ export default function Stations(): ReactElement {
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
               </svg>
             </button>
-            {item.city} / {item.name}
+            {formatItem(item)}
           </li>
         ))}
       </ul>
+      <div className="grid gap-6 mt-4 mb-4 md:grid-cols-2">
+        <Field
+          item={item}
+          label="City"
+          name="city"
+          placeholder="eg. Białystok"
+          onChange={handleChange}
+        />
+        <Field
+          item={item}
+          label="Station name"
+          name="name"
+          placeholder="eg. Zielone Wzgórza"
+          onChange={handleChange}
+        />
+        <button
+          type="submit"
+          className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
+        >
+          Add
+        </button>
+      </div>
     </form>
   )
 }

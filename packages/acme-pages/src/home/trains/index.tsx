@@ -16,6 +16,9 @@ const createItem = () => ({
 
 type Item = ReturnType<typeof createItem>
 
+const formatItem = (item: Item) =>
+  `${item.number} ${item.name} / ${item.type}-${item.paint}`
+
 function Field({
   item,
   label,
@@ -53,7 +56,14 @@ function Field({
 
 export default function Trains(): ReactElement {
   const [item, setItem] = useState(createItem)
-  const [list, setList] = useState<Item[]>(() => [])
+  const [list, setList] = useState<Item[]>(() => [
+    {
+      number: 'EIC 1350',
+      name: 'Tatry',
+      type: 'EP09',
+      paint: '003',
+    },
+  ])
   const [selected, setSelected] = useState<number[]>(() => [0])
 
   const handleChange = useCallback<ChangeEventHandler<HTMLInputElement>>(
@@ -80,7 +90,35 @@ export default function Trains(): ReactElement {
 
   return (
     <form onSubmit={handleSubmit} className="mb-6">
-      <div className="grid gap-6 mb-4 md:grid-cols-2">
+      <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
+        {list.map((item, index) => (
+          <li className="flex items-center" key={index}>
+            <button
+              onClick={() =>
+                setSelected((selected) =>
+                  selected.includes(index)
+                    ? selected.filter((i) => i !== index)
+                    : selected.concat(index),
+                )
+              }
+            >
+              <svg
+                className={`w-3.5 h-3.5 me-2 ${
+                  selected.includes(index) ? 'text-green-500' : 'text-gray-500'
+                } dark:text-green-400 flex-shrink-0`}
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+              </svg>
+            </button>
+            {formatItem(item)}
+          </li>
+        ))}
+      </ul>
+      <div className="grid gap-6 mt-4 mb-4 md:grid-cols-2">
         <Field
           item={item}
           label="Train number"
@@ -116,34 +154,6 @@ export default function Trains(): ReactElement {
           Add
         </button>
       </div>
-      <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
-        {list.map((item, index) => (
-          <li className="flex items-center" key={index}>
-            <button
-              onClick={() =>
-                setSelected((selected) =>
-                  selected.includes(index)
-                    ? selected.filter((i) => i !== index)
-                    : selected.concat(index),
-                )
-              }
-            >
-              <svg
-                className={`w-3.5 h-3.5 me-2 ${
-                  selected.includes(index) ? 'text-green-500' : 'text-gray-500'
-                } dark:text-green-400 flex-shrink-0`}
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-              </svg>
-            </button>
-            {item.number} / {item.name} / {item.type} / {item.paint}
-          </li>
-        ))}
-      </ul>
     </form>
   )
 }
