@@ -7,10 +7,28 @@ import {
   useState,
 } from 'react'
 
+const TYPES = [
+  'EN57',
+  'EN63',
+  'EP05',
+  'EP07',
+  'EP08',
+  'EU06',
+  'EU07',
+  'ET22',
+  'ET41',
+  'SM42',
+  'SN61',
+  'SN84',
+  'ST43',
+  'ST44',
+  'ST48',
+]
+
 const createItem = () => ({
   number: '',
   name: '',
-  type: '',
+  type: TYPES[TYPES.length - 1],
   paint: '',
 })
 
@@ -24,32 +42,50 @@ function Field({
   label,
   name,
   placeholder,
+  options,
   onChange,
 }: {
   item: Item
   label: string
   name: keyof Item
   placeholder?: string
-  onChange: ChangeEventHandler<HTMLInputElement>
+  options?: string[]
+  onChange: ChangeEventHandler<HTMLInputElement | HTMLSelectElement>
 }) {
   const id = useId()
   return (
     <div>
       <label
-        htmlFor={id}
         className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+        htmlFor={id}
       >
         {label}
       </label>
-      <input
-        type="text"
-        name={name}
-        id={id}
-        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-        placeholder={placeholder}
-        value={item[name]}
-        onChange={onChange}
-      />
+      {options ? (
+        <select
+          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          name={name}
+          id={id}
+          value={item[name]}
+          onChange={onChange}
+        >
+          {options.map((value) => (
+            <option key={value} value={value}>
+              {value}
+            </option>
+          ))}
+        </select>
+      ) : (
+        <input
+          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          type="text"
+          name={name}
+          id={id}
+          placeholder={placeholder}
+          value={item[name]}
+          onChange={onChange}
+        />
+      )}
     </div>
   )
 }
@@ -138,6 +174,7 @@ export default function Trains(): ReactElement {
           label="Type"
           name="type"
           placeholder="eg. EP07"
+          options={TYPES}
           onChange={handleChange}
         />
         <Field
@@ -148,8 +185,8 @@ export default function Trains(): ReactElement {
           onChange={handleChange}
         />
         <button
-          type="submit"
           className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
+          type="submit"
         >
           Add
         </button>
