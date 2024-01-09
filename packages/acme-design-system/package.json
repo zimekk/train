@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.1",
-    "clsx": "^1.2.1"
+    "clsx": "^2.0.0"
   },
   "devDependencies": {
     "@storybook/react": "^7.0.6",
