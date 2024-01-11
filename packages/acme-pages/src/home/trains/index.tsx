@@ -173,21 +173,21 @@ export default function Trains(): ReactElement {
           item={item}
           label="Train number"
           name="number"
-          placeholder="train number"
+          placeholder="Train number"
           onChange={handleChange}
         />
         <Field
           item={item}
           label="Name"
           name="name"
-          placeholder="train name"
+          placeholder="Train name"
           onChange={handleChange}
         />
         <Field
           item={item}
           label="Type"
           name="type"
-          placeholder="type of train"
+          placeholder="Type of train"
           options={TYPES}
           onChange={handleChange}
         />
@@ -195,7 +195,7 @@ export default function Trains(): ReactElement {
           item={item}
           label="Paint"
           name="paint"
-          placeholder="paint"
+          placeholder="Paint"
           onChange={handleChange}
         />
         <button
