@@ -8,13 +8,12 @@ import {
 } from 'react'
 
 const createItem = () => ({
-  city: '',
   name: '',
 })
 
 type Item = ReturnType<typeof createItem>
 
-const formatItem = (item: Item) => `${item.city} ${item.name}`
+const formatItem = (item: Item) => item.name
 
 function Field({
   item,
@@ -54,9 +53,9 @@ function Field({
 export default function Stations(): ReactElement {
   const [item, setItem] = useState(createItem)
   const [list, setList] = useState<Item[]>(() => [
-    { city: 'Warszawa', name: 'Dworzec Centralny' },
-    { city: 'Warszawa', name: 'Gdańska' },
-    { city: 'Warszawa', name: 'Śródmieście' },
+    { name: 'Warszawa Dworzec Centralny' },
+    { name: 'Warszawa Gdańska' },
+    { name: 'Warszawa Śródmieście' },
   ])
   const [selected, setSelected] = useState<number[]>(() => [1])
 
@@ -115,16 +114,9 @@ export default function Stations(): ReactElement {
       <div className="grid gap-6 mt-4 mb-4 md:grid-cols-2">
         <Field
           item={item}
-          label="City"
-          name="city"
-          placeholder="eg. Białystok"
-          onChange={handleChange}
-        />
-        <Field
-          item={item}
           label="Station name"
           name="name"
-          placeholder="eg. Zielone Wzgórza"
+          placeholder="eg. Białystok Zielone Wzgórza"
           onChange={handleChange}
         />
         <button
