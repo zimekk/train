@@ -4,6 +4,7 @@ import {
   type ReactElement,
   useCallback,
   useId,
+  useMemo,
   useState,
 } from 'react'
 
@@ -136,10 +137,15 @@ export default function Trains(): ReactElement {
     [],
   )
 
+  const sorted = useMemo(
+    () => list.sort((a, b) => formatItem(a).localeCompare(formatItem(b))),
+    [list],
+  )
+
   return (
     <form onSubmit={handleSubmit} className="mb-6">
       <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
-        {list.map((item, index) => (
+        {sorted.map((item, index) => (
           <li className="flex items-center" key={index}>
             <button
               onClick={() =>
