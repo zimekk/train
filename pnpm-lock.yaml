@@ -73,8 +73,8 @@ importers:
         specifier: ^3.2.1
         version: 3.4.3
       typescript:
-        specifier: 5.4.3
-        version: 5.4.3
+        specifier: 5.4.4
+        version: 5.4.4
 
   apps/main:
     dependencies:
@@ -116,8 +116,8 @@ importers:
         specifier: ^3.2.1
         version: 3.4.3
       typescript:
-        specifier: 5.4.3
-        version: 5.4.3
+        specifier: 5.4.4
+        version: 5.4.4
 
   packages/acme-design-system:
     dependencies:
@@ -139,7 +139,7 @@ importers:
     devDependencies:
       '@storybook/react':
         specifier: ^8.0.0
-        version: 8.0.6(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)
+        version: 8.0.6(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.4)
       '@swc/cli':
         specifier: ^0.1.62
         version: 0.1.62(@swc/core@1.4.12)(chokidar@3.6.0)
@@ -159,8 +159,8 @@ importers:
         specifier: workspace:*
         version: link:../eslint-config-acme
       typescript:
-        specifier: 5.4.3
-        version: 5.4.3
+        specifier: 5.4.4
+        version: 5.4.4
 
   packages/acme-pages:
     dependencies:
@@ -1329,7 +1329,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@storybook/react@8.0.6(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3):
+  /@storybook/react@8.0.6(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.4):
     resolution: {integrity: sha512-A1zivNti15nHkJ6EcVKpxKwlDkyMb5MlJMUb8chX/xBWxoR1f5R8eI484rhdPRYUzBY7JwvgZfy4y/murqg6hA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -1362,7 +1362,7 @@ packages:
       semver: 7.6.0
       ts-dedent: 2.2.0
       type-fest: 2.19.0
-      typescript: 5.4.3
+      typescript: 5.4.4
       util-deprecate: 1.0.2
     transitivePeerDependencies:
       - encoding
@@ -6392,12 +6392,6 @@ packages:
       has-proto: 1.0.3
       is-typed-array: 1.1.13
       possible-typed-array-names: 1.0.0
-    dev: true
-
-  /typescript@5.4.3:
-    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
-    engines: {node: '>=14.17'}
-    hasBin: true
     dev: true
 
   /typescript@5.4.4:
