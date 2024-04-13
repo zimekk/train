@@ -56,7 +56,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: latest
-        version: 18.2.77
+        version: 18.2.78
       autoprefixer:
         specifier: ^10.4.12
         version: 10.4.19(postcss@8.4.38)
@@ -99,7 +99,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: latest
-        version: 18.2.77
+        version: 18.2.78
       autoprefixer:
         specifier: ^10.4.12
         version: 10.4.19(postcss@8.4.38)
@@ -148,7 +148,7 @@ importers:
         version: 1.4.13(@swc/helpers@0.5.9)
       '@types/react':
         specifier: ^18.0.37
-        version: 18.2.77
+        version: 18.2.78
       chokidar:
         specifier: ^3.5.3
         version: 3.6.0
@@ -194,7 +194,7 @@ importers:
         version: 1.4.13(@swc/helpers@0.5.9)
       '@types/react':
         specifier: ^18.0.37
-        version: 18.2.77
+        version: 18.2.78
       chokidar:
         specifier: ^3.5.3
         version: 3.6.0
@@ -1672,8 +1672,8 @@ packages:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
     dev: true
 
-  /@types/react@18.2.77:
-    resolution: {integrity: sha512-CUT9KUUF+HytDM7WiXKLF9qUSg4tGImwy4FXTlfEDPEkkNUzJ7rVFolYweJ9fS1ljoIaP7M7Rdjc5eUm/Yu5AA==}
+  /@types/react@18.2.78:
+    resolution: {integrity: sha512-qOwdPnnitQY4xKlKayt42q5W5UQrSHjgoXNVEtxeqdITJ99k4VXJOP3vt8Rkm9HmgJpH50UNU+rlqfkfWOqp0A==}
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
