@@ -13,13 +13,13 @@ importers:
         version: 2.27.1
       '@commitlint/cli':
         specifier: ^19.0.0
-        version: 19.3.0(@types/node@20.12.7)(typescript@5.4.5)
+        version: 19.3.0(@types/node@20.12.8)(typescript@5.4.5)
       '@commitlint/config-conventional':
         specifier: ^19.0.0
         version: 19.2.2
       '@types/node':
         specifier: ^20.0.0
-        version: 20.12.7
+        version: 20.12.8
       husky:
         specifier: ^9.0.0
         version: 9.0.11
@@ -215,7 +215,7 @@ importers:
         version: 8.57.0
       eslint-config-next:
         specifier: canary
-        version: 14.3.0-canary.28(eslint@8.57.0)(typescript@5.4.5)
+        version: 14.3.0-canary.34(eslint@8.57.0)(typescript@5.4.5)
       eslint-config-prettier:
         specifier: ^9.0.0
         version: 9.1.0(eslint@8.57.0)
@@ -627,8 +627,8 @@ packages:
   '@next/env@14.2.3':
     resolution: {integrity: sha512-W7fd7IbkfmeeY2gXrzJYDx8D2lWKbVoTIj1o1ScPHNzvp30s1AuoEFSdr39bC5sjxJaxTtq3OTCZboNp0lNWHA==}
 
-  '@next/eslint-plugin-next@14.3.0-canary.28':
-    resolution: {integrity: sha512-dcbboNx5dbKCwmLa5Mzw/mym2dC/LGN5pYFtoLkWOEC2TUrOXQRIyjB+xhF5uc7v2AgNUAnT7aLeWBw6I/1cnA==}
+  '@next/eslint-plugin-next@14.3.0-canary.34':
+    resolution: {integrity: sha512-RIUj/D+oo3Bv3K12ut8v6VxWg1B8H5GQBAXoA+xp1YzgsWSf2zyFKBofRb403NrFzmtkED8NYv8qa33hrlP+AA==}
 
   '@next/swc-darwin-arm64@13.4.4':
     resolution: {integrity: sha512-xfjgXvp4KalNUKZMHmsFxr1Ug+aGmmO6NWP0uoh4G3WFqP/mJ1xxfww0gMOeMeSq/Jyr5k7DvoZ2Pv+XOITTtw==}
@@ -969,8 +969,8 @@ packages:
   '@types/node@18.19.31':
     resolution: {integrity: sha512-ArgCD39YpyyrtFKIqMDvjz79jto5fcI/SVUs2HwB+f0dAzq68yqOdyaSivLiLugSziTpNXLQrVb7RZFmdZzbhA==}
 
-  '@types/node@20.12.7':
-    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
+  '@types/node@20.12.8':
+    resolution: {integrity: sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -1714,8 +1714,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  eslint-config-next@14.3.0-canary.28:
-    resolution: {integrity: sha512-67M7d8/m1Ruo6Bv6+aLOzYrzDtzhFQ1AnCiw0W+bcqf/0AqCH84UiqyD6ySDVsHHaL4zoYKHlyzKZpbiVEOjbw==}
+  eslint-config-next@14.3.0-canary.34:
+    resolution: {integrity: sha512-wax2OUYhgOzdVawYs8MaxqLISDyBtwWqsz0kBVFckenm0Pdgy6O4P9eDXtTReZzElM85+2en5f4AF7wYhBeKGQ==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -4150,11 +4150,11 @@ snapshots:
       human-id: 1.0.2
       prettier: 2.8.8
 
-  '@commitlint/cli@19.3.0(@types/node@20.12.7)(typescript@5.4.5)':
+  '@commitlint/cli@19.3.0(@types/node@20.12.8)(typescript@5.4.5)':
     dependencies:
       '@commitlint/format': 19.3.0
       '@commitlint/lint': 19.2.2
-      '@commitlint/load': 19.2.0(@types/node@20.12.7)(typescript@5.4.5)
+      '@commitlint/load': 19.2.0(@types/node@20.12.8)(typescript@5.4.5)
       '@commitlint/read': 19.2.1
       '@commitlint/types': 19.0.3
       execa: 8.0.1
@@ -4201,7 +4201,7 @@ snapshots:
       '@commitlint/rules': 19.0.3
       '@commitlint/types': 19.0.3
 
-  '@commitlint/load@19.2.0(@types/node@20.12.7)(typescript@5.4.5)':
+  '@commitlint/load@19.2.0(@types/node@20.12.8)(typescript@5.4.5)':
     dependencies:
       '@commitlint/config-validator': 19.0.3
       '@commitlint/execute-rule': 19.0.0
@@ -4209,7 +4209,7 @@ snapshots:
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
       cosmiconfig: 9.0.0(typescript@5.4.5)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.12.7)(cosmiconfig@9.0.0(typescript@5.4.5))(typescript@5.4.5)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.12.8)(cosmiconfig@9.0.0(typescript@5.4.5))(typescript@5.4.5)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -4422,7 +4422,7 @@ snapshots:
 
   '@next/env@14.2.3': {}
 
-  '@next/eslint-plugin-next@14.3.0-canary.28':
+  '@next/eslint-plugin-next@14.3.0-canary.34':
     dependencies:
       glob: 10.3.10
 
@@ -4745,7 +4745,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.4
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       '@types/responselike': 1.0.0
 
   '@types/connect@3.4.38':
@@ -4754,7 +4754,7 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
 
   '@types/doctrine@0.0.3': {}
 
@@ -4786,7 +4786,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
 
   '@types/mime@1.3.5': {}
 
@@ -4798,7 +4798,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@20.12.7':
+  '@types/node@20.12.8':
     dependencies:
       undici-types: 5.26.5
 
@@ -4822,7 +4822,7 @@ snapshots:
 
   '@types/responselike@1.0.0':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
 
   '@types/semver@7.5.8': {}
 
@@ -5319,9 +5319,9 @@ snapshots:
       meow: 12.1.1
       split2: 4.2.0
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@20.12.7)(cosmiconfig@9.0.0(typescript@5.4.5))(typescript@5.4.5):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@20.12.8)(cosmiconfig@9.0.0(typescript@5.4.5))(typescript@5.4.5):
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       cosmiconfig: 9.0.0(typescript@5.4.5)
       jiti: 1.21.0
       typescript: 5.4.5
@@ -5733,9 +5733,9 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-next@14.3.0-canary.28(eslint@8.57.0)(typescript@5.4.5):
+  eslint-config-next@14.3.0-canary.34(eslint@8.57.0)(typescript@5.4.5):
     dependencies:
-      '@next/eslint-plugin-next': 14.3.0-canary.28
+      '@next/eslint-plugin-next': 14.3.0-canary.34
       '@rushstack/eslint-patch': 1.10.2
       '@typescript-eslint/parser': 5.59.9(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
