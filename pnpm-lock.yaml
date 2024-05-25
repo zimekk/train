@@ -25,7 +25,7 @@ importers:
         version: 9.0.11
       lint-staged:
         specifier: ^15.0.2
-        version: 15.2.4
+        version: 15.2.5
       prettier:
         specifier: ^3.0.0
         version: 3.2.5
@@ -56,7 +56,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: latest
-        version: 18.3.2
+        version: 18.3.3
       autoprefixer:
         specifier: ^10.4.12
         version: 10.4.19(postcss@8.4.38)
@@ -99,7 +99,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: latest
-        version: 18.3.2
+        version: 18.3.3
       autoprefixer:
         specifier: ^10.4.12
         version: 10.4.19(postcss@8.4.38)
@@ -215,7 +215,7 @@ importers:
         version: 8.57.0
       eslint-config-next:
         specifier: canary
-        version: 14.3.0-canary.74(eslint@8.57.0)(typescript@5.4.5)
+        version: 14.3.0-canary.81(eslint@8.57.0)(typescript@5.4.5)
       eslint-config-prettier:
         specifier: ^9.0.0
         version: 9.1.0(eslint@8.57.0)
@@ -623,8 +623,8 @@ packages:
   '@next/env@14.2.3':
     resolution: {integrity: sha512-W7fd7IbkfmeeY2gXrzJYDx8D2lWKbVoTIj1o1ScPHNzvp30s1AuoEFSdr39bC5sjxJaxTtq3OTCZboNp0lNWHA==}
 
-  '@next/eslint-plugin-next@14.3.0-canary.74':
-    resolution: {integrity: sha512-Nt+Agles2/WCKtaEThdCojKjDeNpz5I39XFD2dgFjfNnzK1HEMBklw1gk9YVhQPOBKDMNBpx47rfDZdhS4pvUA==}
+  '@next/eslint-plugin-next@14.3.0-canary.81':
+    resolution: {integrity: sha512-hMwoCD57Ba63p1QZgHCgGJyN/fQiTMVHv9xHhwVu2SSHtIEPC8QKt4wVb3UtbbeSR+ZcwueEChbvrUGxyw0d0Q==}
 
   '@next/swc-darwin-arm64@13.4.4':
     resolution: {integrity: sha512-xfjgXvp4KalNUKZMHmsFxr1Ug+aGmmO6NWP0uoh4G3WFqP/mJ1xxfww0gMOeMeSq/Jyr5k7DvoZ2Pv+XOITTtw==}
@@ -988,8 +988,8 @@ packages:
   '@types/react@18.3.0':
     resolution: {integrity: sha512-DiUcKjzE6soLyln8NNZmyhcQjVv+WsUIFSqetMN0p8927OztKT4VTfFTqsbAi5oAGIcgOmOajlfBqyptDDjZRw==}
 
-  '@types/react@18.3.2':
-    resolution: {integrity: sha512-Btgg89dAnqD4vV7R3hlwOxgqobUQKgx3MmrQRi0yYbs/P0ym8XozIAlkqVilPqHQwXs4e9Tf63rrCgl58BcO4w==}
+  '@types/react@18.3.3':
+    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
 
   '@types/responselike@1.0.0':
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
@@ -1705,8 +1705,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  eslint-config-next@14.3.0-canary.74:
-    resolution: {integrity: sha512-JTZAlp3/03afBoF0GAAlsDGCf0B+fF2YAq8RKqCbTvF5WhTmO9hBamx3Jzf/aTsUJ/t9s5iKbNs8jnw6XDhECg==}
+  eslint-config-next@14.3.0-canary.81:
+    resolution: {integrity: sha512-gf3Ri+pBF24ZOLP7KXpipSfFQ34E8EPiht+/e7GWwaDyLmj3wuvgLrcklEanJH5ykKjn2W/Y9Msj3hjDdt8VNw==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -2225,6 +2225,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -2541,8 +2542,8 @@ packages:
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  lint-staged@15.2.4:
-    resolution: {integrity: sha512-3F9KRQIS2fVDGtCkBp4Bx0jswjX7zUcKx6OF0ZeY1prksUyKPRIIUqZhIUYAstJfvj6i48VFs4dwVIbCYwvTYQ==}
+  lint-staged@15.2.5:
+    resolution: {integrity: sha512-j+DfX7W9YUvdzEZl3Rk47FhDF6xwDBV5wwsCPw6BwWZVPYJemusQmvb9bRsW23Sqsaa+vRloAWogbK4BUuU2zA==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -2660,8 +2661,8 @@ packages:
     resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==}
     engines: {node: '>=8.6'}
 
-  micromatch@4.0.6:
-    resolution: {integrity: sha512-Y4Ypn3oujJYxJcMacVgcs92wofTHxp9FzfDpQON4msDefoC0lb3ETvQLOdLcbhSwU1bz8HrL/1sygfBIHudrkQ==}
+  micromatch@4.0.7:
+    resolution: {integrity: sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==}
     engines: {node: '>=8.6'}
 
   mime-db@1.52.0:
@@ -2706,8 +2707,8 @@ packages:
     resolution: {integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  minipass@7.1.1:
-    resolution: {integrity: sha512-UZ7eQ+h8ywIRAW1hIEl2AqdwzJucU/Kp59+8kkZeSvafXhZjul247BvIJjEVFVeON6d7lM46XX1HXCduKAS8VA==}
+  minipass@7.1.2:
+    resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
 
   mixme@0.5.10:
@@ -2995,10 +2996,6 @@ packages:
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
-
-  picomatch@4.0.2:
-    resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
-    engines: {node: '>=12'}
 
   pidtree@0.6.0:
     resolution: {integrity: sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==}
@@ -4041,7 +4038,7 @@ snapshots:
       '@changesets/types': 6.0.0
       '@manypkg/get-packages': 1.1.3
       fs-extra: 7.0.1
-      micromatch: 4.0.6
+      micromatch: 4.0.7
 
   '@changesets/errors@0.2.0':
     dependencies:
@@ -4074,7 +4071,7 @@ snapshots:
       '@changesets/types': 6.0.0
       '@manypkg/get-packages': 1.1.3
       is-subdir: 1.2.0
-      micromatch: 4.0.6
+      micromatch: 4.0.7
       spawndamnit: 2.0.0
 
   '@changesets/logger@0.1.0':
@@ -4389,7 +4386,7 @@ snapshots:
 
   '@next/env@14.2.3': {}
 
-  '@next/eslint-plugin-next@14.3.0-canary.74':
+  '@next/eslint-plugin-next@14.3.0-canary.81':
     dependencies:
       glob: 10.3.10
 
@@ -4786,7 +4783,7 @@ snapshots:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
 
-  '@types/react@18.3.2':
+  '@types/react@18.3.3':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -5656,9 +5653,9 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-next@14.3.0-canary.74(eslint@8.57.0)(typescript@5.4.5):
+  eslint-config-next@14.3.0-canary.81(eslint@8.57.0)(typescript@5.4.5):
     dependencies:
-      '@next/eslint-plugin-next': 14.3.0-canary.74
+      '@next/eslint-plugin-next': 14.3.0-canary.81
       '@rushstack/eslint-patch': 1.10.2
       '@typescript-eslint/parser': 5.59.9(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
@@ -6041,7 +6038,7 @@ snapshots:
 
   find-yarn-workspace-root2@1.2.16:
     dependencies:
-      micromatch: 4.0.6
+      micromatch: 4.0.7
       pkg-dir: 4.2.0
 
   flat-cache@3.2.0:
@@ -6154,7 +6151,7 @@ snapshots:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
       minimatch: 9.0.4
-      minipass: 7.1.1
+      minipass: 7.1.2
       path-scurry: 1.11.1
 
   glob@10.3.12:
@@ -6170,7 +6167,7 @@ snapshots:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
       minimatch: 9.0.4
-      minipass: 7.1.1
+      minipass: 7.1.2
       path-scurry: 1.11.1
 
   glob@7.2.3:
@@ -6599,7 +6596,7 @@ snapshots:
 
   lines-and-columns@1.2.4: {}
 
-  lint-staged@15.2.4:
+  lint-staged@15.2.5:
     dependencies:
       chalk: 5.3.0
       commander: 12.1.0
@@ -6607,7 +6604,7 @@ snapshots:
       execa: 8.0.1
       lilconfig: 3.1.1
       listr2: 8.2.1
-      micromatch: 4.0.6
+      micromatch: 4.0.7
       pidtree: 0.6.0
       string-argv: 0.3.2
       yaml: 2.4.2
@@ -6728,10 +6725,10 @@ snapshots:
       braces: 3.0.2
       picomatch: 2.3.1
 
-  micromatch@4.0.6:
+  micromatch@4.0.7:
     dependencies:
       braces: 3.0.3
-      picomatch: 4.0.2
+      picomatch: 2.3.1
 
   mime-db@1.52.0: {}
 
@@ -6763,7 +6760,7 @@ snapshots:
 
   minipass@7.0.4: {}
 
-  minipass@7.1.1: {}
+  minipass@7.1.2: {}
 
   mixme@0.5.10: {}
 
@@ -7036,7 +7033,7 @@ snapshots:
   path-scurry@1.11.1:
     dependencies:
       lru-cache: 10.2.2
-      minipass: 7.1.1
+      minipass: 7.1.2
 
   path-type@4.0.0: {}
 
@@ -7045,8 +7042,6 @@ snapshots:
   picocolors@1.0.0: {}
 
   picomatch@2.3.1: {}
-
-  picomatch@4.0.2: {}
 
   pidtree@0.6.0: {}
 
