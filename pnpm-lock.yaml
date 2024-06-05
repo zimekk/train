@@ -28,7 +28,7 @@ importers:
         version: 15.2.5
       prettier:
         specifier: ^3.0.0
-        version: 3.3.0
+        version: 3.3.1
       turbo:
         specifier: ^1.10.1
         version: 1.13.1
@@ -215,7 +215,7 @@ importers:
         version: 8.57.0
       eslint-config-next:
         specifier: canary
-        version: 15.0.0-canary.11(eslint@8.57.0)(typescript@5.4.5)
+        version: 15.0.0-canary.12(eslint@8.57.0)(typescript@5.4.5)
       eslint-config-prettier:
         specifier: ^9.0.0
         version: 9.1.0(eslint@8.57.0)
@@ -630,8 +630,8 @@ packages:
   '@next/env@14.2.3':
     resolution: {integrity: sha512-W7fd7IbkfmeeY2gXrzJYDx8D2lWKbVoTIj1o1ScPHNzvp30s1AuoEFSdr39bC5sjxJaxTtq3OTCZboNp0lNWHA==}
 
-  '@next/eslint-plugin-next@15.0.0-canary.11':
-    resolution: {integrity: sha512-67d8tCYZ9qaD6fu2H10ZiA5tQJ31gYzyLh3o4SAXAGhO81/QHG9mHSFXhR7FyY9b1rpzq7zvb+ngSaV+sNdBPg==}
+  '@next/eslint-plugin-next@15.0.0-canary.12':
+    resolution: {integrity: sha512-Cv/zimpPeylGb5XyrMH2uo9XoioXotptCA068LGbNT5eq565/HlPg1citac2VpQvQ7bzUCCLvEiT0j2rynnlxw==}
 
   '@next/swc-darwin-arm64@13.4.4':
     resolution: {integrity: sha512-xfjgXvp4KalNUKZMHmsFxr1Ug+aGmmO6NWP0uoh4G3WFqP/mJ1xxfww0gMOeMeSq/Jyr5k7DvoZ2Pv+XOITTtw==}
@@ -1712,8 +1712,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  eslint-config-next@15.0.0-canary.11:
-    resolution: {integrity: sha512-QCsr38fmfGhrdkzWYLkbDqE7hElO1fzq6mBtOPC0acLiwNjCZmtn+vcK6X67YPNrmtthpCvKjeCVrZBkEu3pmA==}
+  eslint-config-next@15.0.0-canary.12:
+    resolution: {integrity: sha512-9xeawYaiK0bWXEtDdkhqO0khR7uU55LHQUBLFvQLp35BVsXAtCMrUHsla4km/BkxZDSQRVDWnl4fspWwUw3Waw==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -3100,8 +3100,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.3.0:
-    resolution: {integrity: sha512-J9odKxERhCQ10OC2yb93583f6UnYutOeiV5i0zEDS7UGTdUt0u+y8erxl3lBKvwo/JHyyoEdXjwp4dke9oyZ/g==}
+  prettier@3.3.1:
+    resolution: {integrity: sha512-7CAwy5dRsxs8PHXT3twixW9/OEll8MLE0VRPCJyl7CkS6VHGPSlsVaWTiASPTyGyYRyApxlaWTzwUxVNrhcwDg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4412,7 +4412,7 @@ snapshots:
 
   '@next/env@14.2.3': {}
 
-  '@next/eslint-plugin-next@15.0.0-canary.11':
+  '@next/eslint-plugin-next@15.0.0-canary.12':
     dependencies:
       glob: 10.3.10
 
@@ -5679,9 +5679,9 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-next@15.0.0-canary.11(eslint@8.57.0)(typescript@5.4.5):
+  eslint-config-next@15.0.0-canary.12(eslint@8.57.0)(typescript@5.4.5):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.0-canary.11
+      '@next/eslint-plugin-next': 15.0.0-canary.12
       '@rushstack/eslint-patch': 1.10.2
       '@typescript-eslint/parser': 5.59.9(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
@@ -7153,7 +7153,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.3.0: {}
+  prettier@3.3.1: {}
 
   pretty-hrtime@1.0.3: {}
 
