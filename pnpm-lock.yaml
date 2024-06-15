@@ -142,10 +142,10 @@ importers:
         version: 8.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5)
       '@swc/cli':
         specifier: ^0.1.62
-        version: 0.1.62(@swc/core@1.5.29(@swc/helpers@0.5.11))(chokidar@3.6.0)
+        version: 0.1.62(@swc/core@1.6.0(@swc/helpers@0.5.11))(chokidar@3.6.0)
       '@swc/core':
         specifier: ^1.3.53
-        version: 1.5.29(@swc/helpers@0.5.11)
+        version: 1.6.0(@swc/helpers@0.5.11)
       '@types/react':
         specifier: ^18.0.37
         version: 18.3.0
@@ -188,10 +188,10 @@ importers:
     devDependencies:
       '@swc/cli':
         specifier: ^0.1.62
-        version: 0.1.62(@swc/core@1.5.29(@swc/helpers@0.5.11))(chokidar@3.6.0)
+        version: 0.1.62(@swc/core@1.6.0(@swc/helpers@0.5.11))(chokidar@3.6.0)
       '@swc/core':
         specifier: ^1.3.53
-        version: 1.5.29(@swc/helpers@0.5.11)
+        version: 1.6.0(@swc/helpers@0.5.11)
       '@types/react':
         specifier: ^18.0.37
         version: 18.3.0
@@ -215,13 +215,13 @@ importers:
         version: 8.57.0
       eslint-config-next:
         specifier: canary
-        version: 15.0.0-canary.28(eslint@8.57.0)(typescript@5.4.5)
+        version: 15.0.0-canary.32(eslint@8.57.0)(typescript@5.4.5)
       eslint-config-prettier:
         specifier: ^9.0.0
         version: 9.1.0(eslint@8.57.0)
       eslint-config-turbo:
         specifier: latest
-        version: 2.0.3(eslint@8.57.0)
+        version: 2.0.4(eslint@8.57.0)
     devDependencies:
       typescript:
         specifier: ^5.0.0
@@ -632,8 +632,8 @@ packages:
   '@next/env@14.2.4':
     resolution: {integrity: sha512-3EtkY5VDkuV2+lNmKlbkibIJxcO4oIHEhBWne6PaAp+76J9KoSsGvNikp6ivzAT8dhhBMYrm6op2pS1ApG0Hzg==}
 
-  '@next/eslint-plugin-next@15.0.0-canary.28':
-    resolution: {integrity: sha512-rUl+pAvNX9G2v9akH+nHnjuGGBawfpuxakfk3bQiwwHtj9N1CU2PENw6ArBMSloQFbQYUkPM4M7pZkXOLKS4ZA==}
+  '@next/eslint-plugin-next@15.0.0-canary.32':
+    resolution: {integrity: sha512-qysgmmg8c3hRuOCsehPs2BkdxZREhx2d2RqHUo2++OutH1fUR2hUQIGevM9QPciltR/Py7JM20Cc9PouiB4kiw==}
 
   '@next/swc-darwin-arm64@13.4.4':
     resolution: {integrity: sha512-xfjgXvp4KalNUKZMHmsFxr1Ug+aGmmO6NWP0uoh4G3WFqP/mJ1xxfww0gMOeMeSq/Jyr5k7DvoZ2Pv+XOITTtw==}
@@ -831,68 +831,68 @@ packages:
       chokidar:
         optional: true
 
-  '@swc/core-darwin-arm64@1.5.29':
-    resolution: {integrity: sha512-6F/sSxpHaq3nzg2ADv9FHLi4Fu2A8w8vP8Ich8gIl16D2htStlwnaPmCLjRswO+cFkzgVqy/l01gzNGWd4DFqA==}
+  '@swc/core-darwin-arm64@1.6.0':
+    resolution: {integrity: sha512-W1Mwk0WRrJ5lAVkYRPxpxOmwu8p9ASXeOmiORhXvE7DYREyI30005xlqSOITU1pfSNKj7G9u3+9DjsOzPPPbBw==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@swc/core-darwin-x64@1.5.29':
-    resolution: {integrity: sha512-rF/rXkvUOTdTIfoYbmszbSUGsCyvqACqy1VeP3nXONS+LxFl4bRmRcUTRrblL7IE5RTMCKUuPbqbQSE2hK7bqg==}
+  '@swc/core-darwin-x64@1.6.0':
+    resolution: {integrity: sha512-EzxLnpPC1zgLb2Y0iVUG6b+/GUv43k6uJUIs52UzxOnBElYP/WeItI3RJ+LUMFzCpZMk/IxB10wofEoeQ1H/Xg==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
 
-  '@swc/core-linux-arm-gnueabihf@1.5.29':
-    resolution: {integrity: sha512-2OAPL8iWBsmmwkjGXqvuUhbmmoLxS1xNXiMq87EsnCNMAKohGc7wJkdAOUL6J/YFpean/vwMWg64rJD4pycBeg==}
+  '@swc/core-linux-arm-gnueabihf@1.6.0':
+    resolution: {integrity: sha512-uP/STDjWZ5N6lc8mxJFsex4NXDaqhfzd8UOrI3LfdV97+4faE4/BC6bVqDNHFFzZi0PHuVBxD6md7IfPjugk6A==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
 
-  '@swc/core-linux-arm64-gnu@1.5.29':
-    resolution: {integrity: sha512-eH/Q9+8O5qhSxMestZnhuS1xqQMr6M7SolZYxiXJqxArXYILLCF+nq2R9SxuMl0CfjHSpb6+hHPk/HXy54eIRA==}
+  '@swc/core-linux-arm64-gnu@1.6.0':
+    resolution: {integrity: sha512-UgNz6anowcnYzJtZohzpii31FOgouBHJqluiq+p2geX/agbC+KfOKwVXdljn95+Qc4ygBuw/hjKjgF2msOLeVg==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
 
-  '@swc/core-linux-arm64-musl@1.5.29':
-    resolution: {integrity: sha512-TERh2OICAJz+SdDIK9+0GyTUwF6r4xDlFmpoiHKHrrD/Hh3u+6Zue0d7jQ/he/i80GDn4tJQkHlZys+RZL5UZg==}
+  '@swc/core-linux-arm64-musl@1.6.0':
+    resolution: {integrity: sha512-xPV6qrnj4nFwXQbIv70C1Kn5z5Th53sirIY76aEonr78qeC6+ywaBZR4uLFNHsljVjyuvVQfTTcl2qraGhu6oQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
 
-  '@swc/core-linux-x64-gnu@1.5.29':
-    resolution: {integrity: sha512-WMDPqU7Ji9dJpA+Llek2p9t7pcy7Bob8ggPUvgsIlv3R/eesF9DIzSbrgl6j3EAEPB9LFdSafsgf6kT/qnvqFg==}
+  '@swc/core-linux-x64-gnu@1.6.0':
+    resolution: {integrity: sha512-xTeWn4OT5uQ+DxT2cy94ngK8tF1U/5fMC49/V6FhCS2Wh+Xa/O+OWcOyKvYtk3b0eGYS4iNIRKgzog7fLSFtvQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
 
-  '@swc/core-linux-x64-musl@1.5.29':
-    resolution: {integrity: sha512-DO14glwpdKY4POSN0201OnGg1+ziaSVr6/RFzuSLggshwXeeyVORiHv3baj7NENhJhWhUy3NZlDsXLnRFkmhHQ==}
+  '@swc/core-linux-x64-musl@1.6.0':
+    resolution: {integrity: sha512-3P01mYD5XbyaVLT0MGZmZE+ZdgmGSvuvIhSejRDBlEXqkFnH79nWds+KsE+91hzVU8XsgzX57Yzv4eO5dlIuPw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
 
-  '@swc/core-win32-arm64-msvc@1.5.29':
-    resolution: {integrity: sha512-V3Y1+a1zG1zpYXUMqPIHEMEOd+rHoVnIpO/KTyFwAmKVu8v+/xPEVx/AGoYE67x4vDAAvPQrKI3Aokilqa5yVg==}
+  '@swc/core-win32-arm64-msvc@1.6.0':
+    resolution: {integrity: sha512-xFuook1efU0ctzMAEeol4eI7J6+k/c/pMJpp/NP/4JJDnhlHwAi2iyiZcID8YZS+ePHgXMLndGdIMHVv/wIPkQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
 
-  '@swc/core-win32-ia32-msvc@1.5.29':
-    resolution: {integrity: sha512-OrM6yfXw4wXhnVFosOJzarw0Fdz5Y0okgHfn9oFbTPJhoqxV5Rdmd6kXxWu2RiVKs6kGSJFZXHDeUq2w5rTIMg==}
+  '@swc/core-win32-ia32-msvc@1.6.0':
+    resolution: {integrity: sha512-VCJa5vTywxzASqvf9OEUM5SZBcNrWbuIkSGM5T9guuBzyrh/tSqVHjzOWL9qpP69uPVj5G/I5bJObLiUKErhvQ==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
 
-  '@swc/core-win32-x64-msvc@1.5.29':
-    resolution: {integrity: sha512-eD/gnxqKyZQQR0hR7TMkIlJ+nCF9dzYmVVNbYZWuA1Xy94aBPUsEk3Uw3oG7q6R3ErrEUPP0FNf2ztEnv+I+dw==}
+  '@swc/core-win32-x64-msvc@1.6.0':
+    resolution: {integrity: sha512-L7i8WBSIJTQiMONJGHnznDydZmlJIqHjZ3VhBHeTTms8cEAuwkAVgzPwgr5cD9GhmcwdeBI9iYdOuKr1pUx19Q==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
 
-  '@swc/core@1.5.29':
-    resolution: {integrity: sha512-nvTtHJI43DUSOAf3h9XsqYg8YXKc0/N4il9y4j0xAkO0ekgDNo+3+jbw6MInawjKJF9uulyr+f5bAutTsOKVlw==}
+  '@swc/core@1.6.0':
+    resolution: {integrity: sha512-Wynbo79uIVBgmq3TPcTMdtXUkqk69IPSVuzo7/Jl1OhR4msC7cUaoRB1216ZanWttrAZ4/g6u17w9XZG4fzp1A==}
     engines: {node: '>=10'}
     peerDependencies:
       '@swc/helpers': '*'
@@ -1723,8 +1723,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  eslint-config-next@15.0.0-canary.28:
-    resolution: {integrity: sha512-YVXGYOOGo2QOSs043RSbQYQoUrMj2yTIphA1wsaPllUkQFR85HdTCEwrTJTaAPLU/gdLqW/E/p3GO8JNkOpliA==}
+  eslint-config-next@15.0.0-canary.32:
+    resolution: {integrity: sha512-ip39y6jUpSRJhVcL0aeYcGZmbhBnwdDQyYr/qCzrJAil7gyijqDQLHGqpVjncHAO9KI0aSrWMJddK3jV8Fy4FA==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -1738,8 +1738,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-config-turbo@2.0.3:
-    resolution: {integrity: sha512-D1+lNOpTFEuAgPWJfRHXHjzvAfO+0TVmORfftmYQNw+uk2UIBjhelhwERBceYFy2oFJnckHsqt69dp/zIM6/0g==}
+  eslint-config-turbo@2.0.4:
+    resolution: {integrity: sha512-zGvU+bxoNWVvSl0prGItrnH9FgeNzKEAjRmv8ruqql1psI37T8IoLF/XeOzT3CzzYzJxuI3wW1yb2agDFYQdHQ==}
     peerDependencies:
       eslint: '>6.6.0'
 
@@ -1826,8 +1826,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
 
-  eslint-plugin-turbo@2.0.3:
-    resolution: {integrity: sha512-mplP4nYaRvtTNuwF5QTLYKLu0/8LTRsHPgX4ARhaof+QZI2ttglONe1/iJpKB4pg0KqFp7WHziKoJL+s0+CJ1w==}
+  eslint-plugin-turbo@2.0.4:
+    resolution: {integrity: sha512-Ozn//vTXJeqIEvEkThM2vuuldMckPqAne7vg/S3GxF+BBY516cjdp7+dYpCU5Q0083hVm638c8542ubccNE+8w==}
     peerDependencies:
       eslint: '>6.6.0'
 
@@ -1991,8 +1991,8 @@ packages:
     resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
     engines: {node: '>=14'}
 
-  foreground-child@3.2.0:
-    resolution: {integrity: sha512-CrWQNaEl1/6WeZoarcM9LHupTo3RpZO2Pdk1vktwzPiQTsJnAKJmm3TACKeG5UZbWDfaH2AbvYxzP96y0MT7fA==}
+  foreground-child@3.2.1:
+    resolution: {integrity: sha512-PXUUyLqrR2XCWICfv6ukppP96sdFwWbNEnfEMt7jNsISjMsvaLNinAHNDYyvkyU+SZG2BTSbT5NjG+vZslfGTA==}
     engines: {node: '>=14'}
 
   fraction.js@4.3.7:
@@ -4413,7 +4413,7 @@ snapshots:
 
   '@next/env@14.2.4': {}
 
-  '@next/eslint-plugin-next@15.0.0-canary.28':
+  '@next/eslint-plugin-next@15.0.0-canary.32':
     dependencies:
       glob: 10.3.10
 
@@ -4643,10 +4643,10 @@ snapshots:
       '@types/express': 4.17.21
       file-system-cache: 2.3.0
 
-  '@swc/cli@0.1.62(@swc/core@1.5.29(@swc/helpers@0.5.11))(chokidar@3.6.0)':
+  '@swc/cli@0.1.62(@swc/core@1.6.0(@swc/helpers@0.5.11))(chokidar@3.6.0)':
     dependencies:
       '@mole-inc/bin-wrapper': 8.0.1
-      '@swc/core': 1.5.29(@swc/helpers@0.5.11)
+      '@swc/core': 1.6.0(@swc/helpers@0.5.11)
       commander: 7.2.0
       fast-glob: 3.2.12
       semver: 7.5.0
@@ -4655,51 +4655,51 @@ snapshots:
     optionalDependencies:
       chokidar: 3.6.0
 
-  '@swc/core-darwin-arm64@1.5.29':
+  '@swc/core-darwin-arm64@1.6.0':
     optional: true
 
-  '@swc/core-darwin-x64@1.5.29':
+  '@swc/core-darwin-x64@1.6.0':
     optional: true
 
-  '@swc/core-linux-arm-gnueabihf@1.5.29':
+  '@swc/core-linux-arm-gnueabihf@1.6.0':
     optional: true
 
-  '@swc/core-linux-arm64-gnu@1.5.29':
+  '@swc/core-linux-arm64-gnu@1.6.0':
     optional: true
 
-  '@swc/core-linux-arm64-musl@1.5.29':
+  '@swc/core-linux-arm64-musl@1.6.0':
     optional: true
 
-  '@swc/core-linux-x64-gnu@1.5.29':
+  '@swc/core-linux-x64-gnu@1.6.0':
     optional: true
 
-  '@swc/core-linux-x64-musl@1.5.29':
+  '@swc/core-linux-x64-musl@1.6.0':
     optional: true
 
-  '@swc/core-win32-arm64-msvc@1.5.29':
+  '@swc/core-win32-arm64-msvc@1.6.0':
     optional: true
 
-  '@swc/core-win32-ia32-msvc@1.5.29':
+  '@swc/core-win32-ia32-msvc@1.6.0':
     optional: true
 
-  '@swc/core-win32-x64-msvc@1.5.29':
+  '@swc/core-win32-x64-msvc@1.6.0':
     optional: true
 
-  '@swc/core@1.5.29(@swc/helpers@0.5.11)':
+  '@swc/core@1.6.0(@swc/helpers@0.5.11)':
     dependencies:
       '@swc/counter': 0.1.3
       '@swc/types': 0.1.8
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.5.29
-      '@swc/core-darwin-x64': 1.5.29
-      '@swc/core-linux-arm-gnueabihf': 1.5.29
-      '@swc/core-linux-arm64-gnu': 1.5.29
-      '@swc/core-linux-arm64-musl': 1.5.29
-      '@swc/core-linux-x64-gnu': 1.5.29
-      '@swc/core-linux-x64-musl': 1.5.29
-      '@swc/core-win32-arm64-msvc': 1.5.29
-      '@swc/core-win32-ia32-msvc': 1.5.29
-      '@swc/core-win32-x64-msvc': 1.5.29
+      '@swc/core-darwin-arm64': 1.6.0
+      '@swc/core-darwin-x64': 1.6.0
+      '@swc/core-linux-arm-gnueabihf': 1.6.0
+      '@swc/core-linux-arm64-gnu': 1.6.0
+      '@swc/core-linux-arm64-musl': 1.6.0
+      '@swc/core-linux-x64-gnu': 1.6.0
+      '@swc/core-linux-x64-musl': 1.6.0
+      '@swc/core-win32-arm64-msvc': 1.6.0
+      '@swc/core-win32-ia32-msvc': 1.6.0
+      '@swc/core-win32-x64-msvc': 1.6.0
       '@swc/helpers': 0.5.11
 
   '@swc/counter@0.1.3': {}
@@ -5684,9 +5684,9 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-next@15.0.0-canary.28(eslint@8.57.0)(typescript@5.4.5):
+  eslint-config-next@15.0.0-canary.32(eslint@8.57.0)(typescript@5.4.5):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.0-canary.28
+      '@next/eslint-plugin-next': 15.0.0-canary.32
       '@rushstack/eslint-patch': 1.10.2
       '@typescript-eslint/parser': 5.59.9(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
@@ -5706,10 +5706,10 @@ snapshots:
     dependencies:
       eslint: 8.57.0
 
-  eslint-config-turbo@2.0.3(eslint@8.57.0):
+  eslint-config-turbo@2.0.4(eslint@8.57.0):
     dependencies:
       eslint: 8.57.0
-      eslint-plugin-turbo: 2.0.3(eslint@8.57.0)
+      eslint-plugin-turbo: 2.0.4(eslint@8.57.0)
 
   eslint-import-resolver-node@0.3.7:
     dependencies:
@@ -5840,7 +5840,7 @@ snapshots:
       semver: 6.3.1
       string.prototype.matchall: 4.0.11
 
-  eslint-plugin-turbo@2.0.3(eslint@8.57.0):
+  eslint-plugin-turbo@2.0.4(eslint@8.57.0):
     dependencies:
       dotenv: 16.0.3
       eslint: 8.57.0
@@ -6089,7 +6089,7 @@ snapshots:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
 
-  foreground-child@3.2.0:
+  foreground-child@3.2.1:
     dependencies:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
@@ -6184,7 +6184,7 @@ snapshots:
 
   glob@10.3.10:
     dependencies:
-      foreground-child: 3.2.0
+      foreground-child: 3.2.1
       jackspeak: 2.3.6
       minimatch: 9.0.4
       minipass: 7.1.2
