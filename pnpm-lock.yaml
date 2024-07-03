@@ -73,8 +73,8 @@ importers:
         specifier: ^3.2.1
         version: 3.4.4
       typescript:
-        specifier: 5.5.2
-        version: 5.5.2
+        specifier: 5.5.3
+        version: 5.5.3
 
   apps/main:
     dependencies:
@@ -116,8 +116,8 @@ importers:
         specifier: ^3.2.1
         version: 3.4.4
       typescript:
-        specifier: 5.5.2
-        version: 5.5.2
+        specifier: 5.5.3
+        version: 5.5.3
 
   packages/acme-design-system:
     dependencies:
@@ -139,7 +139,7 @@ importers:
     devDependencies:
       '@storybook/react':
         specifier: ^8.0.0
-        version: 8.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.2)
+        version: 8.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
       '@swc/cli':
         specifier: ^0.1.62
         version: 0.1.62(@swc/core@1.6.7(@swc/helpers@0.5.11))(chokidar@3.6.0)
@@ -159,8 +159,8 @@ importers:
         specifier: workspace:*
         version: link:../eslint-config-acme
       typescript:
-        specifier: 5.5.2
-        version: 5.5.2
+        specifier: 5.5.3
+        version: 5.5.3
 
   packages/acme-pages:
     dependencies:
@@ -3621,11 +3621,6 @@ packages:
     resolution: {integrity: sha512-/OxDN6OtAk5KBpGb28T+HZc2M+ADtvRxXrKKbUwtsLgdoxgX13hyy7ek6bFRl5+aBs2yZzB0c4CnQfAtVypW/g==}
     engines: {node: '>= 0.4'}
 
-  typescript@5.5.2:
-    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-
   typescript@5.5.3:
     resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
     engines: {node: '>=14.17'}
@@ -4475,7 +4470,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@storybook/react@8.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.2)':
+  '@storybook/react@8.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)':
     dependencies:
       '@storybook/client-logger': 8.0.7
       '@storybook/docs-tools': 8.0.7
@@ -4501,7 +4496,7 @@ snapshots:
       type-fest: 2.19.0
       util-deprecate: 1.0.2
     optionalDependencies:
-      typescript: 5.5.2
+      typescript: 5.5.3
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -7574,8 +7569,6 @@ snapshots:
       has-proto: 1.0.3
       is-typed-array: 1.1.13
       possible-typed-array-names: 1.0.0
-
-  typescript@5.5.2: {}
 
   typescript@5.5.3: {}
 
