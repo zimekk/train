@@ -1,5 +1,6 @@
 {
-  "repository": "https://github.com/vercel/examples.git",
+  "name": "train",
+  "repository": "https://github.com/zimekk/train.git",
   "license": "MIT",
   "private": true,
   "commitlint": {
@@ -13,6 +14,7 @@
   "lint-staged": {
     "*.{json,js,jsx,md,scss,ts,tsx,css,yml,yaml}": "prettier --write"
   },
+  "packageManager": "pnpm@9.6.0",
   "scripts": {
     "build": "turbo run build",
     "build:main": "turbo run build --filter=main...",
@@ -28,7 +30,7 @@
     "update:latest": "pnpm update --interactive --latest",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "prepare": "husky install",
+    "prepare": "husky && turbo telemetry disable",
     "release": "turbo run build --filter=main... && changeset publish"
   },
   "workspaces": [
@@ -43,6 +45,6 @@
     "husky": "^9.0.0",
     "lint-staged": "^15.0.2",
     "prettier": "^3.0.0",
-    "turbo": "^1.10.1"
+    "turbo": "^2.0.0"
   }
 }
