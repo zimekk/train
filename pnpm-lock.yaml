@@ -56,7 +56,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: latest
-        version: 18.3.6
+        version: 18.3.7
       autoprefixer:
         specifier: ^10.4.12
         version: 10.4.20(postcss@8.4.43)
@@ -99,7 +99,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: latest
-        version: 18.3.6
+        version: 18.3.7
       autoprefixer:
         specifier: ^10.4.12
         version: 10.4.20(postcss@8.4.43)
@@ -148,7 +148,7 @@ importers:
         version: 1.7.24(@swc/helpers@0.5.13)
       '@types/react':
         specifier: ^18.0.37
-        version: 18.3.6
+        version: 18.3.7
       chokidar:
         specifier: ^4.0.0
         version: 4.0.0
@@ -194,7 +194,7 @@ importers:
         version: 1.7.24(@swc/helpers@0.5.13)
       '@types/react':
         specifier: ^18.0.37
-        version: 18.3.6
+        version: 18.3.7
       chokidar:
         specifier: ^4.0.0
         version: 4.0.0
@@ -215,7 +215,7 @@ importers:
         version: 9.10.0(jiti@1.21.6)
       eslint-config-next:
         specifier: canary
-        version: 15.0.0-canary.156(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2)
+        version: 15.0.0-canary.157(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2)
       eslint-config-prettier:
         specifier: ^9.0.0
         version: 9.1.0(eslint@9.10.0(jiti@1.21.6))
@@ -631,8 +631,8 @@ packages:
   '@next/env@14.2.8':
     resolution: {integrity: sha512-L44a+ynqkolyNBnYfF8VoCiSrjSZWgEHYKkKLGcs/a80qh7AkfVUD/MduVPgdsWZ31tgROR+yJRA0PZjSVBXWQ==}
 
-  '@next/eslint-plugin-next@15.0.0-canary.156':
-    resolution: {integrity: sha512-LNJaaN5wkJDn2UpLyaPsnwGhfoCZ9GYJ+nDii617kyDsWaWffbdbzD54wlZ0equ3iUJXZMn3w0KogY76VCOyCw==}
+  '@next/eslint-plugin-next@15.0.0-canary.157':
+    resolution: {integrity: sha512-+L92vIGy2+J/3XPf9V8rEJhoIkQrzPfnlkeF3BHkICobW2Ol0gW/Nu1Auss14shh3Vpf8sG3mjgG6jNGBzi5YA==}
 
   '@next/swc-darwin-arm64@14.2.11':
     resolution: {integrity: sha512-eiY9u7wEJZWp/Pga07Qy3ZmNEfALmmSS1HtsJF3y1QEyaExu7boENz11fWqDmZ3uvcyAxCMhTrA1jfVxITQW8g==}
@@ -978,8 +978,8 @@ packages:
   '@types/node@20.14.4':
     resolution: {integrity: sha512-1ChboN+57suCT2t/f8lwtPY/k3qTpuD/qnqQuYoBg6OQOcPyaw7PiZVdGpaZYAvhDDtqrt0oAaM8+oSu1xsUGw==}
 
-  '@types/prop-types@15.7.12':
-    resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
+  '@types/prop-types@15.7.13':
+    resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
 
   '@types/qs@6.9.14':
     resolution: {integrity: sha512-5khscbd3SwWMhFqylJBLQ0zIu7c1K6Vz0uBIt915BI3zV0q1nfjRQD3RqSBcPaO6PHEF4ov/t9y89fSiyThlPA==}
@@ -987,8 +987,8 @@ packages:
   '@types/range-parser@1.2.7':
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
 
-  '@types/react@18.3.6':
-    resolution: {integrity: sha512-CnGaRYNu2iZlkGXGrOYtdg5mLK8neySj0woZ4e2wF/eli2E6Sazmq5X+Nrj6OBrrFVQfJWTUFeqAzoRhWQXYvg==}
+  '@types/react@18.3.7':
+    resolution: {integrity: sha512-KUnDCJF5+AiZd8owLIeVHqmW9yM4sqmDVf2JRJiBMFkGvkoZ4/WyV2lL4zVsoinmRS/W3FeEdZLEWFRofnT2FQ==}
 
   '@types/responselike@1.0.0':
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
@@ -1693,8 +1693,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  eslint-config-next@15.0.0-canary.156:
-    resolution: {integrity: sha512-P6Ja3JGSRmowTZvUjLTXvwbnlvjfyZZYFemoPcGOz+Dg2a0u0nqKI6oLiWcmDhNJ9CUUXgvMlFVh+oH6hJzPoQ==}
+  eslint-config-next@15.0.0-canary.157:
+    resolution: {integrity: sha512-ImuL9vqOz3KRgfeFaw6cs2vpt9DZ+RqUKFOSaEgBZvytx0vpANhm5aFWAc9/9CW1oOxemSliKSoT2eScxb7XOg==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -4134,7 +4134,7 @@ snapshots:
 
   '@next/env@14.2.8': {}
 
-  '@next/eslint-plugin-next@15.0.0-canary.156':
+  '@next/eslint-plugin-next@15.0.0-canary.157':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4514,15 +4514,15 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/prop-types@15.7.12': {}
+  '@types/prop-types@15.7.13': {}
 
   '@types/qs@6.9.14': {}
 
   '@types/range-parser@1.2.7': {}
 
-  '@types/react@18.3.6':
+  '@types/react@18.3.7':
     dependencies:
-      '@types/prop-types': 15.7.12
+      '@types/prop-types': 15.7.13
       csstype: 3.1.3
 
   '@types/responselike@1.0.0':
@@ -5400,9 +5400,9 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-next@15.0.0-canary.156(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2):
+  eslint-config-next@15.0.0-canary.157(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.0-canary.156
+      '@next/eslint-plugin-next': 15.0.0-canary.157
       '@rushstack/eslint-patch': 1.10.2
       '@typescript-eslint/eslint-plugin': 7.2.0(@typescript-eslint/parser@5.59.9(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2)
       '@typescript-eslint/parser': 5.59.9(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2)
