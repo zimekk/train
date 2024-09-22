@@ -142,7 +142,7 @@ importers:
         version: 8.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.2)
       '@swc/cli':
         specifier: ^0.1.62
-        version: 0.1.62(@swc/core@1.7.24(@swc/helpers@0.5.13))(chokidar@4.0.0)
+        version: 0.1.62(@swc/core@1.7.24(@swc/helpers@0.5.13))(chokidar@4.0.1)
       '@swc/core':
         specifier: ^1.3.53
         version: 1.7.24(@swc/helpers@0.5.13)
@@ -151,7 +151,7 @@ importers:
         version: 18.3.8
       chokidar:
         specifier: ^4.0.0
-        version: 4.0.0
+        version: 4.0.1
       eslint:
         specifier: ^9.0.0
         version: 9.11.0(jiti@1.21.6)
@@ -188,7 +188,7 @@ importers:
     devDependencies:
       '@swc/cli':
         specifier: ^0.1.62
-        version: 0.1.62(@swc/core@1.7.24(@swc/helpers@0.5.13))(chokidar@4.0.0)
+        version: 0.1.62(@swc/core@1.7.24(@swc/helpers@0.5.13))(chokidar@4.0.1)
       '@swc/core':
         specifier: ^1.3.53
         version: 1.7.24(@swc/helpers@0.5.13)
@@ -197,7 +197,7 @@ importers:
         version: 18.3.8
       chokidar:
         specifier: ^4.0.0
-        version: 4.0.0
+        version: 4.0.1
       eslint:
         specifier: ^9.0.0
         version: 9.11.0(jiti@1.21.6)
@@ -215,7 +215,7 @@ importers:
         version: 9.11.0(jiti@1.21.6)
       eslint-config-next:
         specifier: canary
-        version: 15.0.0-canary.160(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2)
+        version: 15.0.0-canary.161(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2)
       eslint-config-prettier:
         specifier: ^9.0.0
         version: 9.1.0(eslint@9.11.0(jiti@1.21.6))
@@ -631,8 +631,8 @@ packages:
   '@next/env@14.2.8':
     resolution: {integrity: sha512-L44a+ynqkolyNBnYfF8VoCiSrjSZWgEHYKkKLGcs/a80qh7AkfVUD/MduVPgdsWZ31tgROR+yJRA0PZjSVBXWQ==}
 
-  '@next/eslint-plugin-next@15.0.0-canary.160':
-    resolution: {integrity: sha512-m6IAc1X40J9NsvtBVUomT/2yS8lgXIsov3Wqu1i/cHZvkmfrIPWomTN0i5OmbtUjh1wOLAxaIlN7ucFUqdtmIw==}
+  '@next/eslint-plugin-next@15.0.0-canary.161':
+    resolution: {integrity: sha512-pxhcqfHf4+yJBR7sY9bQCZZ1qITEPZXfXwrVNi5s7AUqaSlZpZK0lBXiO1fPohVkn9ptwmRKLK+7QsuIF3TGNw==}
 
   '@next/swc-darwin-arm64@14.2.13':
     resolution: {integrity: sha512-IkAmQEa2Htq+wHACBxOsslt+jMoV3msvxCn0WFSfJSkv/scy+i/EukBKNad36grRxywaXUYJc9mxEGkeIs8Bzg==}
@@ -1347,8 +1347,8 @@ packages:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
 
-  chokidar@4.0.0:
-    resolution: {integrity: sha512-mxIojEAQcuEvT/lyXq+jf/3cO/KoA6z4CeNDGGevTybECPOMFCnQy3OPahluUkbqgPNGw5Bi78UC7Po6Lhy+NA==}
+  chokidar@4.0.1:
+    resolution: {integrity: sha512-n8enUVCED/KVRQlab1hr3MVpcVMvxtZjmEa956u+4YijlmQED223XMSYj2tLuKvr4jcCTzNNMpQDUer72MMmzA==}
     engines: {node: '>= 14.16.0'}
 
   ci-info@3.9.0:
@@ -1693,8 +1693,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  eslint-config-next@15.0.0-canary.160:
-    resolution: {integrity: sha512-N9IEr5U1Gi0EN5cQ39gI4Ypai0CdPB6QexkE1eITuW2GKH0yY5SenlBmvHRbS7PyGH1esKsqGgiSRYJjCvWGjw==}
+  eslint-config-next@15.0.0-canary.161:
+    resolution: {integrity: sha512-Eb0/XH1GIseutlYJ1R7TYlIEDg6uK7CnLsbtl7lpcX0r1RCpLUiCrZnJ7EcJ1XbPthyfUbvPI0LAa1iGuwxSdQ==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -4134,7 +4134,7 @@ snapshots:
 
   '@next/env@14.2.8': {}
 
-  '@next/eslint-plugin-next@15.0.0-canary.160':
+  '@next/eslint-plugin-next@15.0.0-canary.161':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4364,7 +4364,7 @@ snapshots:
       '@types/express': 4.17.21
       file-system-cache: 2.3.0
 
-  '@swc/cli@0.1.62(@swc/core@1.7.24(@swc/helpers@0.5.13))(chokidar@4.0.0)':
+  '@swc/cli@0.1.62(@swc/core@1.7.24(@swc/helpers@0.5.13))(chokidar@4.0.1)':
     dependencies:
       '@mole-inc/bin-wrapper': 8.0.1
       '@swc/core': 1.7.24(@swc/helpers@0.5.13)
@@ -4374,7 +4374,7 @@ snapshots:
       slash: 3.0.0
       source-map: 0.7.4
     optionalDependencies:
-      chokidar: 4.0.0
+      chokidar: 4.0.1
 
   '@swc/core-darwin-arm64@1.7.24':
     optional: true
@@ -4974,7 +4974,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  chokidar@4.0.0:
+  chokidar@4.0.1:
     dependencies:
       readdirp: 4.0.1
 
@@ -5400,9 +5400,9 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-next@15.0.0-canary.160(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2):
+  eslint-config-next@15.0.0-canary.161(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.0-canary.160
+      '@next/eslint-plugin-next': 15.0.0-canary.161
       '@rushstack/eslint-patch': 1.10.2
       '@typescript-eslint/eslint-plugin': 7.2.0(@typescript-eslint/parser@5.59.9(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2)
       '@typescript-eslint/parser': 5.59.9(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2)
