@@ -56,7 +56,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: latest
-        version: 18.3.8
+        version: 18.3.9
       autoprefixer:
         specifier: ^10.4.12
         version: 10.4.20(postcss@8.4.43)
@@ -99,7 +99,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: latest
-        version: 18.3.8
+        version: 18.3.9
       autoprefixer:
         specifier: ^10.4.12
         version: 10.4.20(postcss@8.4.43)
@@ -148,7 +148,7 @@ importers:
         version: 1.7.28(@swc/helpers@0.5.13)
       '@types/react':
         specifier: ^18.0.37
-        version: 18.3.8
+        version: 18.3.9
       chokidar:
         specifier: ^4.0.0
         version: 4.0.1
@@ -194,7 +194,7 @@ importers:
         version: 1.7.28(@swc/helpers@0.5.13)
       '@types/react':
         specifier: ^18.0.37
-        version: 18.3.8
+        version: 18.3.9
       chokidar:
         specifier: ^4.0.0
         version: 4.0.1
@@ -987,8 +987,8 @@ packages:
   '@types/range-parser@1.2.7':
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
 
-  '@types/react@18.3.8':
-    resolution: {integrity: sha512-syBUrW3/XpnW4WJ41Pft+I+aPoDVbrBVQGEnbD7NijDGlVC+8gV/XKRY+7vMDlfPpbwYt0l1vd/Sj8bJGMbs9Q==}
+  '@types/react@18.3.9':
+    resolution: {integrity: sha512-+BpAVyTpJkNWWSSnaLBk6ePpHLOGJKnEQNbINNovPWzvEUyAe3e+/d494QdEh71RekM/qV7lw6jzf1HGrJyAtQ==}
 
   '@types/responselike@1.0.0':
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
@@ -4520,7 +4520,7 @@ snapshots:
 
   '@types/range-parser@1.2.7': {}
 
-  '@types/react@18.3.8':
+  '@types/react@18.3.9':
     dependencies:
       '@types/prop-types': 15.7.13
       csstype: 3.1.3
