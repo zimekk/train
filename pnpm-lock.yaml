@@ -71,7 +71,7 @@ importers:
         version: 8.4.47
       tailwindcss:
         specifier: ^3.2.1
-        version: 3.4.13
+        version: 3.4.14
       typescript:
         specifier: ^5.6.2
         version: 5.6.3
@@ -114,7 +114,7 @@ importers:
         version: 8.4.47
       tailwindcss:
         specifier: ^3.2.1
-        version: 3.4.13
+        version: 3.4.14
       typescript:
         specifier: ^5.6.2
         version: 5.6.3
@@ -215,7 +215,7 @@ importers:
         version: 9.12.0(jiti@1.21.6)
       eslint-config-next:
         specifier: canary
-        version: 15.0.0-canary.194(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3)
+        version: 15.0.0-canary.195(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3)
       eslint-config-prettier:
         specifier: ^9.0.0
         version: 9.1.0(eslint@9.12.0(jiti@1.21.6))
@@ -608,8 +608,8 @@ packages:
   '@next/env@14.2.15':
     resolution: {integrity: sha512-S1qaj25Wru2dUpcIZMjxeMVSwkt8BK4dmWHHiBuRstcIyOsMapqT4A4jSB6onvqeygkSSmOkyny9VVx8JIGamQ==}
 
-  '@next/eslint-plugin-next@15.0.0-canary.194':
-    resolution: {integrity: sha512-KkO+TThDLr2e2pYK2r8268b0RsjAAtLoW31mXQVwZ7RGNpRGeleqtB4gP0gsS7OHbaJQgSL8184LHrD+RjzCMg==}
+  '@next/eslint-plugin-next@15.0.0-canary.195':
+    resolution: {integrity: sha512-gvsEt2zbiZ4RG85d7KYNC+xkYK7rqfdIQH9kj9a6uCWOQnmfy+XDj61VmRr02L9pTmv3f/85bVrqoyvdhjwuWg==}
 
   '@next/swc-darwin-arm64@14.2.14':
     resolution: {integrity: sha512-bsxbSAUodM1cjYeA4o6y7sp9wslvwjSkWw57t8DtC8Zig8aG8V6r+Yc05/9mDzLKcybb6EN85k1rJDnMKBd9Gw==}
@@ -1646,8 +1646,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  eslint-config-next@15.0.0-canary.194:
-    resolution: {integrity: sha512-YANl3sk1JLd3XdqX7O2aGJUtQLQ4Hfy1gw3cGvQei10dBZgORkVRbHfdZ9JCxemCS4A2FU6CZcWsQUak5slwWA==}
+  eslint-config-next@15.0.0-canary.195:
+    resolution: {integrity: sha512-mYL+HNPbGqPtWjKhbkUAVCRmf4U8CXQvvQeKwOMwTwFC7uMhrkOEBjR1qpFAsQnFcvr69Zon8SNroFXfczXx+Q==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -3258,8 +3258,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tailwindcss@3.4.13:
-    resolution: {integrity: sha512-KqjHOJKogOUt5Bs752ykCeiwvi0fKVkr5oqsFNt/8px/tA8scFPIlkygsf6jXrfCqGHz7VflA6+yytWuM+XhFw==}
+  tailwindcss@3.4.14:
+    resolution: {integrity: sha512-IcSvOcTRcUtQQ7ILQL5quRDg7Xs93PdJEk1ZLbhhvJc7uj/OAhYOnruEiwnGgBvUtaUAJ8/mhSw1o8L2jCiENA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -3508,6 +3508,11 @@ packages:
 
   yaml@2.5.1:
     resolution: {integrity: sha512-bLQOjaX/ADgQ20isPJRvF0iRUHIxVhYvr53Of7wGcWlO2jvtUlH5m87DsmulFVxRpNLOnI4tB6p/oh8D7kpn9Q==}
+    engines: {node: '>= 14'}
+    hasBin: true
+
+  yaml@2.6.0:
+    resolution: {integrity: sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ==}
     engines: {node: '>= 14'}
     hasBin: true
 
@@ -3982,7 +3987,7 @@ snapshots:
 
   '@next/env@14.2.15': {}
 
-  '@next/eslint-plugin-next@15.0.0-canary.194':
+  '@next/eslint-plugin-next@15.0.0-canary.195':
     dependencies:
       fast-glob: 3.3.1
 
@@ -5123,9 +5128,9 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-next@15.0.0-canary.194(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3):
+  eslint-config-next@15.0.0-canary.195(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.0-canary.194
+      '@next/eslint-plugin-next': 15.0.0-canary.195
       '@rushstack/eslint-patch': 1.10.4
       '@typescript-eslint/eslint-plugin': 8.8.0(@typescript-eslint/parser@8.8.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3))(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3)
       '@typescript-eslint/parser': 8.8.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3)
@@ -6366,7 +6371,7 @@ snapshots:
   postcss-load-config@4.0.2(postcss@8.4.47):
     dependencies:
       lilconfig: 3.1.2
-      yaml: 2.5.1
+      yaml: 2.6.0
     optionalDependencies:
       postcss: 8.4.47
 
@@ -6826,7 +6831,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwindcss@3.4.13:
+  tailwindcss@3.4.14:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -7099,6 +7104,8 @@ snapshots:
   yallist@2.1.2: {}
 
   yaml@2.5.1: {}
+
+  yaml@2.6.0: {}
 
   yargs-parser@21.1.1: {}
 
