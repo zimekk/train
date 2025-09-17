@@ -19,7 +19,7 @@
     "build": "turbo run build",
     "build:main": "turbo run build --filter=main...",
     "build:docs": "turbo run build --filter=docs...",
-    "dev": "turbo run dev --scope=!docs",
+    "dev": "turbo run dev --filter=!docs",
     "lint": "turbo run lint",
     "start": "turbo run start",
     "clean": "turbo run clean",

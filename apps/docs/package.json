@@ -15,12 +15,12 @@
     "@acme/design-system": "workspace:*",
     "@acme/pages": "workspace:*",
     "@vercel/examples-ui": "^1.0.4",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "^15.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "latest",
+    "@types/react": "^18.3.1",
     "autoprefixer": "^10.4.12",
     "eslint": "^9.0.0",
     "eslint-config-acme": "workspace:*",
