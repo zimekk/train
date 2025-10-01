@@ -10,16 +10,16 @@ importers:
     devDependencies:
       '@changesets/cli':
         specifier: ^2.26.1
-        version: 2.29.7(@types/node@22.18.7)
+        version: 2.29.7(@types/node@22.18.8)
       '@commitlint/cli':
         specifier: ^20.0.0
-        version: 20.1.0(@types/node@22.18.7)(typescript@5.9.3)
+        version: 20.1.0(@types/node@22.18.8)(typescript@5.9.3)
       '@commitlint/config-conventional':
         specifier: ^20.0.0
         version: 20.0.0
       '@types/node':
         specifier: ^22.0.0
-        version: 22.18.7
+        version: 22.18.8
       husky:
         specifier: ^9.0.0
         version: 9.1.7
@@ -215,7 +215,7 @@ importers:
         version: 9.36.0(jiti@2.6.0)
       eslint-config-next:
         specifier: canary
-        version: 15.6.0-canary.37(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.3)
+        version: 15.6.0-canary.38(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.3)
       eslint-config-prettier:
         specifier: ^10.0.0
         version: 10.1.8(eslint@9.36.0(jiti@2.6.0))
@@ -759,8 +759,8 @@ packages:
   '@next/env@15.5.4':
     resolution: {integrity: sha512-27SQhYp5QryzIT5uO8hq99C69eLQ7qkzkDPsk3N+GuS2XgOgoYEeOav7Pf8Tn4drECOVDsDg8oj+/DVy8qQL2A==}
 
-  '@next/eslint-plugin-next@15.6.0-canary.37':
-    resolution: {integrity: sha512-v2Muv56OSyyc8VVocLG5lxNLjko2C0BhbxCZ6dYLlHO7hAxWtLX1tNJSItxsSGKmkqXBpMyOj/RAP/jGFKGt0g==}
+  '@next/eslint-plugin-next@15.6.0-canary.38':
+    resolution: {integrity: sha512-LQFtlKuDpO49nGooz18Th+30VOLFb2k9kfFhDPOSnhQz+fM+zgaMyA2WNBiQv4mDEgbxCJUFh8PkUfMcolWwAg==}
 
   '@next/swc-darwin-arm64@15.5.3':
     resolution: {integrity: sha512-nzbHQo69+au9wJkGKTU9lP7PXv0d1J5ljFpvb+LnEomLtSbJkbZyEs6sbF3plQmiOB2l9OBtN2tNSvCH1nQ9Jg==}
@@ -1055,11 +1055,11 @@ packages:
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
 
-  '@types/node@22.18.7':
-    resolution: {integrity: sha512-3E97nlWEVp2V6J7aMkR8eOnw/w0pArPwf/5/W0865f+xzBoGL/ZuHkTAKAGN7cOWNwd+sG+hZOqj+fjzeHS75g==}
+  '@types/node@22.18.8':
+    resolution: {integrity: sha512-pAZSHMiagDR7cARo/cch1f3rXy0AEXwsVsVH09FcyeJVAzCnGgmYis7P3JidtTUjyadhTeSo8TgRPswstghDaw==}
 
-  '@types/node@24.6.0':
-    resolution: {integrity: sha512-F1CBxgqwOMc4GKJ7eY22hWhBVQuMYTtqI8L0FcszYcpYX0fzfDGpez22Xau8Mgm7O9fI+zA/TYIdq3tGWfweBA==}
+  '@types/node@24.6.1':
+    resolution: {integrity: sha512-ljvjjs3DNXummeIaooB4cLBKg2U6SPI6Hjra/9rRIy7CpM0HpLtG9HptkMKAb4HYWy5S7HUvJEuWgr/y0U8SHw==}
 
   '@types/react@19.1.16':
     resolution: {integrity: sha512-WBM/nDbEZmDUORKnh5i1bTnAz6vTohUf9b8esSMu+b24+srbaxa04UbJgWx78CVfNXA20sNu0odEIluZDFdCog==}
@@ -1760,8 +1760,8 @@ packages:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
 
-  eslint-config-next@15.6.0-canary.37:
-    resolution: {integrity: sha512-NfC/WvMeoG7SnNcXhDAJQSmrS0r6zKu000fzOqpzNj4twdY+IDFUH2AYK0SXoKGz3Sl9dOtmCko/8Xju+HlNLQ==}
+  eslint-config-next@15.6.0-canary.38:
+    resolution: {integrity: sha512-4JC9OYLletr/LxB1dtmwBvmUJizOMHf29brSE02Zg4oWGHcYiLCHOwRgxS/BkDlKsIm+eWPcUyQ2hgLw6tBUwA==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -3577,7 +3577,7 @@ snapshots:
     dependencies:
       '@changesets/types': 6.1.0
 
-  '@changesets/cli@2.29.7(@types/node@22.18.7)':
+  '@changesets/cli@2.29.7(@types/node@22.18.8)':
     dependencies:
       '@changesets/apply-release-plan': 7.0.13
       '@changesets/assemble-release-plan': 6.0.9
@@ -3593,7 +3593,7 @@ snapshots:
       '@changesets/should-skip-package': 0.1.2
       '@changesets/types': 6.1.0
       '@changesets/write': 0.4.0
-      '@inquirer/external-editor': 1.0.2(@types/node@22.18.7)
+      '@inquirer/external-editor': 1.0.2(@types/node@22.18.8)
       '@manypkg/get-packages': 1.1.3
       ansi-colors: 4.1.3
       ci-info: 3.9.0
@@ -3692,11 +3692,11 @@ snapshots:
       human-id: 4.1.1
       prettier: 2.8.8
 
-  '@commitlint/cli@20.1.0(@types/node@22.18.7)(typescript@5.9.3)':
+  '@commitlint/cli@20.1.0(@types/node@22.18.8)(typescript@5.9.3)':
     dependencies:
       '@commitlint/format': 20.0.0
       '@commitlint/lint': 20.0.0
-      '@commitlint/load': 20.1.0(@types/node@22.18.7)(typescript@5.9.3)
+      '@commitlint/load': 20.1.0(@types/node@22.18.8)(typescript@5.9.3)
       '@commitlint/read': 20.0.0
       '@commitlint/types': 20.0.0
       tinyexec: 1.0.1
@@ -3743,7 +3743,7 @@ snapshots:
       '@commitlint/rules': 20.0.0
       '@commitlint/types': 20.0.0
 
-  '@commitlint/load@20.1.0(@types/node@22.18.7)(typescript@5.9.3)':
+  '@commitlint/load@20.1.0(@types/node@22.18.8)(typescript@5.9.3)':
     dependencies:
       '@commitlint/config-validator': 20.0.0
       '@commitlint/execute-rule': 20.0.0
@@ -3751,7 +3751,7 @@ snapshots:
       '@commitlint/types': 20.0.0
       chalk: 5.6.2
       cosmiconfig: 9.0.0(typescript@5.9.3)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.18.7)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.18.8)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -4040,12 +4040,12 @@ snapshots:
   '@img/sharp-win32-x64@0.34.4':
     optional: true
 
-  '@inquirer/external-editor@1.0.2(@types/node@22.18.7)':
+  '@inquirer/external-editor@1.0.2(@types/node@22.18.8)':
     dependencies:
       chardet: 2.1.0
       iconv-lite: 0.7.0
     optionalDependencies:
-      '@types/node': 22.18.7
+      '@types/node': 22.18.8
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -4108,7 +4108,7 @@ snapshots:
 
   '@next/env@15.5.4': {}
 
-  '@next/eslint-plugin-next@15.6.0-canary.37':
+  '@next/eslint-plugin-next@15.6.0-canary.38':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4324,12 +4324,12 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 24.6.0
+      '@types/node': 24.6.1
       '@types/responselike': 1.0.3
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
-      '@types/node': 22.18.7
+      '@types/node': 22.18.8
 
   '@types/estree@1.0.8': {}
 
@@ -4341,15 +4341,15 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 24.6.0
+      '@types/node': 24.6.1
 
   '@types/node@12.20.55': {}
 
-  '@types/node@22.18.7':
+  '@types/node@22.18.8':
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@24.6.0':
+  '@types/node@24.6.1':
     dependencies:
       undici-types: 7.13.0
 
@@ -4359,7 +4359,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 24.6.0
+      '@types/node': 24.6.1
 
   '@typescript-eslint/eslint-plugin@8.44.0(@typescript-eslint/parser@8.44.0(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.3))(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.3)':
     dependencies:
@@ -4870,9 +4870,9 @@ snapshots:
       meow: 12.1.1
       split2: 4.2.0
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@22.18.7)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@22.18.8)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3):
     dependencies:
-      '@types/node': 22.18.7
+      '@types/node': 22.18.8
       cosmiconfig: 9.0.0(typescript@5.9.3)
       jiti: 2.6.0
       typescript: 5.9.3
@@ -5153,9 +5153,9 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-next@15.6.0-canary.37(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.3):
+  eslint-config-next@15.6.0-canary.38(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 15.6.0-canary.37
+      '@next/eslint-plugin-next': 15.6.0-canary.38
       '@rushstack/eslint-patch': 1.12.0
       '@typescript-eslint/eslint-plugin': 8.44.0(@typescript-eslint/parser@8.44.0(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.3))(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.3)
       '@typescript-eslint/parser': 8.44.0(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.3)
