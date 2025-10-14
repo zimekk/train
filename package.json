@@ -14,7 +14,7 @@
   "lint-staged": {
     "*.{json,js,jsx,md,scss,ts,tsx,css,yml,yaml}": "prettier --write"
   },
-  "packageManager": "pnpm@10.18.2",
+  "packageManager": "pnpm@10.18.3",
   "scripts": {
     "build": "turbo run build",
     "build:main": "turbo run build --filter=main...",
