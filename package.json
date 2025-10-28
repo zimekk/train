@@ -41,7 +41,7 @@
     "@changesets/cli": "^2.26.1",
     "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^20.0.0",
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.0.0",
     "husky": "^9.0.0",
     "lint-staged": "^16.0.0",
     "prettier": "^3.0.0",
