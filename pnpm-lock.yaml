@@ -139,7 +139,7 @@ importers:
     devDependencies:
       '@storybook/react':
         specifier: ^10.0.0
-        version: 10.1.7(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(storybook@8.6.14(prettier@3.7.4))(typescript@5.9.3)
+        version: 10.1.8(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(storybook@8.6.14(prettier@3.7.4))(typescript@5.9.3)
       '@swc/cli':
         specifier: ^0.1.62
         version: 0.1.65(@swc/core@1.13.5(@swc/helpers@0.5.17))(chokidar@5.0.0)
@@ -1086,19 +1086,19 @@ packages:
   '@storybook/global@5.0.0':
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
 
-  '@storybook/react-dom-shim@10.1.7':
-    resolution: {integrity: sha512-cjIoNbWnGiet3vRjswnnh3ioN+X2ZEqDBIV6b+WN8RpGSUs3vg6V2s7G8IzgSfxFDahIqQ6D7yot3aOOlN+qBw==}
+  '@storybook/react-dom-shim@10.1.8':
+    resolution: {integrity: sha512-L1XNbPILnAkQcFMqmv+g4bZ0qc5F1NdjZbo4koCxASwWpFbaXFceazNrEURUUxDpo/sqmcxSdAykbjJr9hilSw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^10.1.7
+      storybook: ^10.1.8
 
-  '@storybook/react@10.1.7':
-    resolution: {integrity: sha512-QGCQKYj4o17IlKZ4MuzKxm6KCV8kQCie7uZ+EYQ6mETAbYDj9c93DWdgGY0mIbUtuGSPY5pl8uwhr+HvmnkyBA==}
+  '@storybook/react@10.1.8':
+    resolution: {integrity: sha512-XQlvNadAL9WE9AH4YpeAWOxGCwFYGkvwvS7ZtsqJcR/iVTNcKI4BZYu+lGb6VJvrkNTpTteG/w+/WNTiwd8IhA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^10.1.7
+      storybook: ^10.1.8
       typescript: '>= 4.9.x'
     peerDependenciesMeta:
       typescript:
@@ -1582,8 +1582,8 @@ packages:
     resolution: {integrity: sha512-2NovHVesVF5TXefsGX1yzx1xgr7+m9JQenvz6FQY3qd+YXkKkYiv+vTCc7OriP9mcDZpTC5mAOYN4ocd29+erA==}
     hasBin: true
 
-  baseline-browser-mapping@2.9.6:
-    resolution: {integrity: sha512-v9BVVpOTLB59C9E7aSnmIF8h7qRsFpx+A2nugVMTszEOMcfjlZMsXRm4LF23I3Z9AJxc8ANpIvzbzONoX9VJlg==}
+  baseline-browser-mapping@2.9.7:
+    resolution: {integrity: sha512-k9xFKplee6KIio3IDbwj+uaCLpqzOwakOgmqzPezM0sFJlFKcg30vk2wOiAJtkTSfx0SSQDSe8q+mWA/fSH5Zg==}
     hasBin: true
 
   better-opn@3.0.2:
@@ -4674,16 +4674,16 @@ snapshots:
 
   '@storybook/global@5.0.0': {}
 
-  '@storybook/react-dom-shim@10.1.7(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(storybook@8.6.14(prettier@3.7.4))':
+  '@storybook/react-dom-shim@10.1.8(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(storybook@8.6.14(prettier@3.7.4))':
     dependencies:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
       storybook: 8.6.14(prettier@3.7.4)
 
-  '@storybook/react@10.1.7(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(storybook@8.6.14(prettier@3.7.4))(typescript@5.9.3)':
+  '@storybook/react@10.1.8(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(storybook@8.6.14(prettier@3.7.4))(typescript@5.9.3)':
     dependencies:
       '@storybook/global': 5.0.0
-      '@storybook/react-dom-shim': 10.1.7(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(storybook@8.6.14(prettier@3.7.4))
+      '@storybook/react-dom-shim': 10.1.8(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(storybook@8.6.14(prettier@3.7.4))
       react: 19.2.3
       react-docgen: 8.0.2
       react-dom: 19.2.3(react@19.2.3)
@@ -5185,7 +5185,7 @@ snapshots:
 
   baseline-browser-mapping@2.8.25: {}
 
-  baseline-browser-mapping@2.9.6: {}
+  baseline-browser-mapping@2.9.7: {}
 
   better-opn@3.0.2:
     dependencies:
@@ -5238,7 +5238,7 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.9.6
+      baseline-browser-mapping: 2.9.7
       caniuse-lite: 1.0.30001760
       electron-to-chromium: 1.5.267
       node-releases: 2.0.27
