@@ -56,7 +56,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.11
+        version: 19.2.13
       autoprefixer:
         specifier: ^10.4.12
         version: 10.4.24(postcss@8.5.6)
@@ -99,7 +99,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.11
+        version: 19.2.13
       autoprefixer:
         specifier: ^10.4.12
         version: 10.4.24(postcss@8.5.6)
@@ -148,7 +148,7 @@ importers:
         version: 1.13.5(@swc/helpers@0.5.17)
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.11
+        version: 19.2.13
       chokidar:
         specifier: ^5.0.0
         version: 5.0.0
@@ -194,7 +194,7 @@ importers:
         version: 1.13.5(@swc/helpers@0.5.17)
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.11
+        version: 19.2.13
       chokidar:
         specifier: ^5.0.0
         version: 5.0.0
@@ -215,7 +215,7 @@ importers:
         version: 9.39.2(jiti@2.6.1)
       eslint-config-next:
         specifier: canary
-        version: 16.2.0-canary.26(@typescript-eslint/parser@8.46.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
+        version: 16.2.0-canary.28(@typescript-eslint/parser@8.46.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       eslint-config-prettier:
         specifier: ^10.0.0
         version: 10.1.8(eslint@9.39.2(jiti@2.6.1))
@@ -974,8 +974,8 @@ packages:
   '@next/env@16.1.6':
     resolution: {integrity: sha512-N1ySLuZjnAtN3kFnwhAwPvZah8RJxKasD7x1f8shFqhncnWZn4JMfg37diLNuoHsLAlrDfM3g4mawVdtAG8XLQ==}
 
-  '@next/eslint-plugin-next@16.2.0-canary.26':
-    resolution: {integrity: sha512-fO8+Qv9kpSrCZMMGvXP7BYNTXdpazvmyQ5BGLM4Ttw744vFFdW4UZQwe/+BOYLhhRsfcHkYvMVRYbU86nomnVg==}
+  '@next/eslint-plugin-next@16.2.0-canary.28':
+    resolution: {integrity: sha512-LDZhHCWaORtEL+pfdRnWrmK2e9V7quQCgCweVC48v/LvtfLe+Fqf/JHFNQ8Ar7j+GcW2CK4YRwjXs2YW1Sd8wA==}
 
   '@next/swc-darwin-arm64@15.5.3':
     resolution: {integrity: sha512-nzbHQo69+au9wJkGKTU9lP7PXv0d1J5ljFpvb+LnEomLtSbJkbZyEs6sbF3plQmiOB2l9OBtN2tNSvCH1nQ9Jg==}
@@ -1288,8 +1288,8 @@ packages:
   '@types/node@25.2.0':
     resolution: {integrity: sha512-DZ8VwRFUNzuqJ5khrvwMXHmvPe+zGayJhr2CDNiKB1WBE1ST8Djl00D0IC4vvNmHMdj6DlbYRIaFE7WHjlDl5w==}
 
-  '@types/react@19.2.11':
-    resolution: {integrity: sha512-tORuanb01iEzWvMGVGv2ZDhYZVeRMrw453DCSAIn/5yvcSVnMoUMTyf33nQJLahYEnv9xqrTNbgz4qY5EfSh0g==}
+  '@types/react@19.2.13':
+    resolution: {integrity: sha512-KkiJeU6VbYbUOp5ITMIc7kBfqlYkKA5KhEHVrGMmUUMt7NeaZg65ojdPk+FtNrBAOXNVM5QM72jnADjM+XVRAQ==}
 
   '@types/resolve@1.20.6':
     resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
@@ -2001,8 +2001,8 @@ packages:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
 
-  eslint-config-next@16.2.0-canary.26:
-    resolution: {integrity: sha512-++VnrvV4TeaBCaW/+bnbr5WyK1QIQyEqDV+nw3OB+e1AoJwJFgcnZNmBcpOQC/DNR3lfcc4+LVh9Dsb3KlwjEg==}
+  eslint-config-next@16.2.0-canary.28:
+    resolution: {integrity: sha512-nrdh/LOlsM2H166bvhHy26vpZo4wvBrmHpcqap6Y8bS/jVvdkClOpDx0jqEaFL81+LHzT51xOmVZAWc+7Ubopw==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -4548,7 +4548,7 @@ snapshots:
 
   '@next/env@16.1.6': {}
 
-  '@next/eslint-plugin-next@16.2.0-canary.26':
+  '@next/eslint-plugin-next@16.2.0-canary.28':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4810,7 +4810,7 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
-  '@types/react@19.2.11':
+  '@types/react@19.2.13':
     dependencies:
       csstype: 3.2.3
 
@@ -5609,9 +5609,9 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-next@16.2.0-canary.26(@typescript-eslint/parser@8.46.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3):
+  eslint-config-next@16.2.0-canary.28(@typescript-eslint/parser@8.46.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.2.0-canary.26
+      '@next/eslint-plugin-next': 16.2.0-canary.28
       eslint: 9.39.2(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.46.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))
