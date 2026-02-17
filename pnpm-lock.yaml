@@ -139,7 +139,7 @@ importers:
     devDependencies:
       '@storybook/react':
         specifier: ^10.0.0
-        version: 10.2.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))(typescript@5.9.3)
+        version: 10.2.9(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))(typescript@5.9.3)
       '@swc/cli':
         specifier: ^0.1.62
         version: 0.1.65(@swc/core@1.13.5(@swc/helpers@0.5.17))(chokidar@5.0.0)
@@ -215,7 +215,7 @@ importers:
         version: 10.0.0(jiti@2.6.1)
       eslint-config-next:
         specifier: canary
-        version: 16.2.0-canary.46(@typescript-eslint/parser@8.46.1(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
+        version: 16.2.0-canary.48(@typescript-eslint/parser@8.46.1(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
       eslint-config-prettier:
         specifier: ^10.0.0
         version: 10.1.8(eslint@10.0.0(jiti@2.6.1))
@@ -983,8 +983,8 @@ packages:
   '@next/env@16.1.6':
     resolution: {integrity: sha512-N1ySLuZjnAtN3kFnwhAwPvZah8RJxKasD7x1f8shFqhncnWZn4JMfg37diLNuoHsLAlrDfM3g4mawVdtAG8XLQ==}
 
-  '@next/eslint-plugin-next@16.2.0-canary.46':
-    resolution: {integrity: sha512-BoFIQR6so+OEKJ02KIWEiLTHIWjq6ODnUO2S6bqZEKGRAVFgfFRkLw5XwYhafmeDN9UL/dad8JHzez/5ZyUFtg==}
+  '@next/eslint-plugin-next@16.2.0-canary.48':
+    resolution: {integrity: sha512-fiuM11My4t66jrWmEYfsDQ5H5ZET+DRuEK1UjE7TkA/WNXntVf3TPxbL+kp3lTwV2fhqcE7Qwu1hxRho395eIQ==}
 
   '@next/swc-darwin-arm64@15.5.3':
     resolution: {integrity: sha512-nzbHQo69+au9wJkGKTU9lP7PXv0d1J5ljFpvb+LnEomLtSbJkbZyEs6sbF3plQmiOB2l9OBtN2tNSvCH1nQ9Jg==}
@@ -1124,19 +1124,19 @@ packages:
   '@storybook/global@5.0.0':
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
 
-  '@storybook/react-dom-shim@10.2.8':
-    resolution: {integrity: sha512-Xde9X3VszFV1pTXfc2ZFM89XOCGRxJD8MUIzDwkcT9xaki5a+8srs/fsXj75fMY6gMYfcL5lNRZvCqg37HOmcQ==}
+  '@storybook/react-dom-shim@10.2.9':
+    resolution: {integrity: sha512-hlvFl0ylK/RZ4GxOXcBfzQNoOm3/x0LEgaPYlkR2/P4CTbKKTc+fHRsZMpFgP/X0g8oZmfm93mdhQdX0zlF8JQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^10.2.8
+      storybook: ^10.2.9
 
-  '@storybook/react@10.2.8':
-    resolution: {integrity: sha512-nMFqQFUXq6Zg2O5SeuomyWnrIx61QfpNQMrfor8eCEzHrWNnXrrvVsz2RnHIgXN8RVyaWGDPh1srAECu/kDHXw==}
+  '@storybook/react@10.2.9':
+    resolution: {integrity: sha512-cYJroaHWHmauPO8EcfpDTU3Odc7z5/DbuLO+jQ4SAaoupwnE35HNe8WAdpD3jpmI20cqKauqOENIT/+HjxhlYA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^10.2.8
+      storybook: ^10.2.9
       typescript: '>= 4.9.x'
     peerDependenciesMeta:
       typescript:
@@ -2013,8 +2013,8 @@ packages:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
 
-  eslint-config-next@16.2.0-canary.46:
-    resolution: {integrity: sha512-URFU6rG85SjJC32io8dlsCzLOrj2f2diCUu8sqNFtwTZ8fTG6W6ARJTh9yKwvDX3+7z/KoB+2w3C3kMcf12Fig==}
+  eslint-config-next@16.2.0-canary.48:
+    resolution: {integrity: sha512-3CyjbJAZKGGuMURr1L0AwQCW7B45/m8u8BzQcu/ji01/Xy3VwknljKy7wBGpSLr7UPw/ye5cHAOrSoXSH98O+w==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -2896,6 +2896,10 @@ packages:
       sass:
         optional: true
 
+  node-exports-info@1.6.0:
+    resolution: {integrity: sha512-pyFS63ptit/P5WqUkt+UUfe+4oevH+bFeIiPPdfb0pFeYEu/1ELnJu5l+5EcTKYL5M7zaAa7S8ddywgXypqKCw==}
+    engines: {node: '>= 0.4'}
+
   node-releases@2.0.27:
     resolution: {integrity: sha512-nmh3lCkYZ3grZvqcCH+fjmQ7X+H0OeZgP40OierEaAptX4XofMh5kwNbWh7lBduUzCcV/8kZ+NDLCwm2iorIlA==}
 
@@ -3253,8 +3257,9 @@ packages:
     engines: {node: '>= 0.4'}
     hasBin: true
 
-  resolve@2.0.0-next.5:
-    resolution: {integrity: sha512-U7WjGVG9sH8tvjW5SmGbQuui75FiyjAX72HX15DwBBwF9dNiQZRQAg9nnPhYy+TUnE0+VcrttuvNI8oSxZcocA==}
+  resolve@2.0.0-next.6:
+    resolution: {integrity: sha512-3JmVl5hMGtJ3kMmB3zi3DL25KfkCEyy3Tw7Gmw7z5w8M9WlwoPFnIvwChzu1+cF3iaK3sp18hhPz8ANeimdJfA==}
+    engines: {node: '>= 0.4'}
     hasBin: true
 
   responselike@2.0.1:
@@ -4532,7 +4537,7 @@ snapshots:
 
   '@next/env@16.1.6': {}
 
-  '@next/eslint-plugin-next@16.2.0-canary.46':
+  '@next/eslint-plugin-next@16.2.0-canary.48':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4625,16 +4630,16 @@ snapshots:
 
   '@storybook/global@5.0.0': {}
 
-  '@storybook/react-dom-shim@10.2.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))':
+  '@storybook/react-dom-shim@10.2.9(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))':
     dependencies:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
       storybook: 8.6.14(prettier@3.8.1)
 
-  '@storybook/react@10.2.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))(typescript@5.9.3)':
+  '@storybook/react@10.2.9(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))(typescript@5.9.3)':
     dependencies:
       '@storybook/global': 5.0.0
-      '@storybook/react-dom-shim': 10.2.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))
+      '@storybook/react-dom-shim': 10.2.9(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))
       react: 19.2.4
       react-docgen: 8.0.2
       react-dom: 19.2.4(react@19.2.4)
@@ -5590,9 +5595,9 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-next@16.2.0-canary.46(@typescript-eslint/parser@8.46.1(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3):
+  eslint-config-next@16.2.0-canary.48(@typescript-eslint/parser@8.46.1(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.2.0-canary.46
+      '@next/eslint-plugin-next': 16.2.0-canary.48
       eslint: 10.0.0(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.46.1(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1)))(eslint@10.0.0(jiti@2.6.1))
@@ -5730,7 +5735,7 @@ snapshots:
       object.fromentries: 2.0.8
       object.values: 1.2.1
       prop-types: 15.8.1
-      resolve: 2.0.0-next.5
+      resolve: 2.0.0-next.6
       semver: 6.3.1
       string.prototype.matchall: 4.0.12
       string.prototype.repeat: 1.0.0
@@ -6202,7 +6207,7 @@ snapshots:
 
   is-bun-module@2.0.0:
     dependencies:
-      semver: 7.7.3
+      semver: 7.7.4
 
   is-callable@1.2.7: {}
 
@@ -6568,6 +6573,13 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
+  node-exports-info@1.6.0:
+    dependencies:
+      array.prototype.flatmap: 1.3.3
+      es-errors: 1.3.0
+      object.entries: 1.1.9
+      semver: 6.3.1
+
   node-releases@2.0.27: {}
 
   normalize-path@3.0.0: {}
@@ -6908,9 +6920,12 @@ snapshots:
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
-  resolve@2.0.0-next.5:
+  resolve@2.0.0-next.6:
     dependencies:
+      es-errors: 1.3.0
       is-core-module: 2.16.1
+      node-exports-info: 1.6.0
+      object-keys: 1.1.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
