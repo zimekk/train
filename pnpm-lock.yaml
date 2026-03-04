@@ -139,7 +139,7 @@ importers:
     devDependencies:
       '@storybook/react':
         specifier: ^10.0.0
-        version: 10.2.14(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))(typescript@5.9.3)
+        version: 10.2.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))(typescript@5.9.3)
       '@swc/cli':
         specifier: ^0.1.62
         version: 0.1.65(@swc/core@1.13.5(@swc/helpers@0.5.17))(chokidar@5.0.0)
@@ -215,13 +215,13 @@ importers:
         version: 10.0.2(jiti@2.6.1)
       eslint-config-next:
         specifier: canary
-        version: 16.2.0-canary.72(@typescript-eslint/parser@8.46.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3)
+        version: 16.2.0-canary.77(@typescript-eslint/parser@8.46.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3)
       eslint-config-prettier:
         specifier: ^10.0.0
         version: 10.1.8(eslint@10.0.2(jiti@2.6.1))
       eslint-config-turbo:
         specifier: latest
-        version: 2.8.12(eslint@10.0.2(jiti@2.6.1))(turbo@2.8.12)
+        version: 2.8.13(eslint@10.0.2(jiti@2.6.1))(turbo@2.8.13)
     devDependencies:
       typescript:
         specifier: ^5.0.0
@@ -975,8 +975,8 @@ packages:
   '@next/env@16.1.6':
     resolution: {integrity: sha512-N1ySLuZjnAtN3kFnwhAwPvZah8RJxKasD7x1f8shFqhncnWZn4JMfg37diLNuoHsLAlrDfM3g4mawVdtAG8XLQ==}
 
-  '@next/eslint-plugin-next@16.2.0-canary.72':
-    resolution: {integrity: sha512-hqVMN6gEWNdvO6T+o8hWMQc1GUuIva7OXvElK70T+s7toHnNXMwnsij3iNNpDj3XeR3v6dLdQvsheTVmSyzapA==}
+  '@next/eslint-plugin-next@16.2.0-canary.77':
+    resolution: {integrity: sha512-4p+uljMaSpu8BDE5wcPEgTZGqs7LDLgSrQK2Mnbd/2QhguNPUrGJ0XmPOru9xNylTubHozPJX2dcdqP+XxYUSQ==}
 
   '@next/swc-darwin-arm64@15.5.3':
     resolution: {integrity: sha512-nzbHQo69+au9wJkGKTU9lP7PXv0d1J5ljFpvb+LnEomLtSbJkbZyEs6sbF3plQmiOB2l9OBtN2tNSvCH1nQ9Jg==}
@@ -1116,19 +1116,19 @@ packages:
   '@storybook/global@5.0.0':
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
 
-  '@storybook/react-dom-shim@10.2.14':
-    resolution: {integrity: sha512-hO/Yzhf3fX/HhB5MDc/ERM5QLA1+yLgnyt0a4NGDqeWeXQ90YSjEski1RppdAI9oNGyhNwWllZPUrozrL7ECyg==}
+  '@storybook/react-dom-shim@10.2.15':
+    resolution: {integrity: sha512-rfPwAz0f67ORfKpA0gq9bhDNlDST2CY9X7bjVfOvOHIfaVVjIJ8wTXE8ozBxOXTBbcv0eblRR9Xcm7aRBG8+iA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^10.2.14
+      storybook: ^10.2.15
 
-  '@storybook/react@10.2.14':
-    resolution: {integrity: sha512-GzbbsfyOeGpTqLoss6yyb9m7eYO7oXSV8cey+y0gxVplOmK8XISA8q0AtH7gWzw6pDUOaBpEfnrE/jgOOKwQlw==}
+  '@storybook/react@10.2.15':
+    resolution: {integrity: sha512-gyreXMjiS1mRiagaGtAqia142hoQ3EDd2nIxwvZu0av/TWpq7Rn6Fh3a9Jdi6Y4psUO+CqGPPur0svgfAD/4+Q==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^10.2.14
+      storybook: ^10.2.15
       typescript: '>= 4.9.x'
     peerDependenciesMeta:
       typescript:
@@ -2013,8 +2013,8 @@ packages:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
 
-  eslint-config-next@16.2.0-canary.72:
-    resolution: {integrity: sha512-Mar8wQjegy3F0kt5kkLWdZGwuKiCkwUoRCN5z6uKhRi5HVqSwShSi/GUY7+WZUJQeu94CN6JFdzY4Gw96sAYJQ==}
+  eslint-config-next@16.2.0-canary.77:
+    resolution: {integrity: sha512-T2HaHZEVBjKoXw3gvXFZrn5bqDAmCYzA+bt6U8HBddZIuw1gqpHuo3M7VySGHabQBbnHlHCBCjrbE7OQlslpFQ==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -2028,8 +2028,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-config-turbo@2.8.12:
-    resolution: {integrity: sha512-0MP/CzngIMalr0R8Q74VfGImVSFmDu7iL+v+1v16NdLG3xlHGE/mjtXDMYchEk6wWNlmaib3EjGifbQ2Jr5kxw==}
+  eslint-config-turbo@2.8.13:
+    resolution: {integrity: sha512-Dlckhij6DMxNKzAEHpsxk2wEjKpXD7DRXYjHMukBgfrkCtSZtn7VILtlgFZ8jLUGXovxlSwUQ4NgR1iussHJrQ==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -2099,8 +2099,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
 
-  eslint-plugin-turbo@2.8.12:
-    resolution: {integrity: sha512-Q0LcIS2bRivRDZbtHOrtNFUSclnvfL8Qn1yM8I7+1LRerPmdcLF++SYOOCsF9COCEvoP6O66+bnupDqpC/W59w==}
+  eslint-plugin-turbo@2.8.13:
+    resolution: {integrity: sha512-s2IicZps1ANU/rM3ZTDgC/Jq4Aib9z4OD3OB3SG68Webme5BjRf1ryMeKKpd1uwozuouia0fbVPtgckKLyJeTw==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -3598,8 +3598,18 @@ packages:
     cpu: [x64]
     os: [darwin]
 
+  turbo-darwin-64@2.8.13:
+    resolution: {integrity: sha512-PmOvodQNiOj77+Zwoqku70vwVjKzL34RTNxxoARjp5RU5FOj/CGiC6vcDQhNtFPUOWSAaogHF5qIka9TBhX4XA==}
+    cpu: [x64]
+    os: [darwin]
+
   turbo-darwin-arm64@2.8.12:
     resolution: {integrity: sha512-cbqqGN0vd7ly2TeuaM8k9AK9u1CABO4kBA5KPSqovTiLL3sORccn/mZzJSbvQf0EsYRfU34MgW5FotfwW3kx8Q==}
+    cpu: [arm64]
+    os: [darwin]
+
+  turbo-darwin-arm64@2.8.13:
+    resolution: {integrity: sha512-kI+anKcLIM4L8h+NsM7mtAUpElkCOxv5LgiQVQR8BASyDFfc8Efj5kCk3cqxuxOvIqx0sLfCX7atrHQ2kwuNJQ==}
     cpu: [arm64]
     os: [darwin]
 
@@ -3608,8 +3618,18 @@ packages:
     cpu: [x64]
     os: [linux]
 
+  turbo-linux-64@2.8.13:
+    resolution: {integrity: sha512-j29KnQhHyzdzgCykBFeBqUPS4Wj7lWMnZ8CHqytlYDap4Jy70l4RNG46pOL9+lGu6DepK2s1rE86zQfo0IOdPw==}
+    cpu: [x64]
+    os: [linux]
+
   turbo-linux-arm64@2.8.12:
     resolution: {integrity: sha512-BRJCMdyXjyBoL0GYpvj9d2WNfMHwc3tKmJG5ATn2Efvil9LsiOsd/93/NxDqW0jACtHFNVOPnd/CBwXRPiRbwA==}
+    cpu: [arm64]
+    os: [linux]
+
+  turbo-linux-arm64@2.8.13:
+    resolution: {integrity: sha512-OEl1YocXGZDRDh28doOUn49QwNe82kXljO1HXApjU0LapkDiGpfl3jkAlPKxEkGDSYWc8MH5Ll8S16Rf5tEBYg==}
     cpu: [arm64]
     os: [linux]
 
@@ -3618,13 +3638,27 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  turbo-windows-64@2.8.13:
+    resolution: {integrity: sha512-717bVk1+Pn2Jody7OmWludhEirEe0okoj1NpRbSm5kVZz/yNN/jfjbxWC6ilimXMz7xoMT3IDfQFJsFR3PMANA==}
+    cpu: [x64]
+    os: [win32]
+
   turbo-windows-arm64@2.8.12:
     resolution: {integrity: sha512-9nRnlw5DF0LkJClkIws1evaIF36dmmMEO84J5Uj4oQ8C0QTHwlH7DNe5Kq2Jdmu8GXESCNDNuUYG8Cx6W/vm3g==}
     cpu: [arm64]
     os: [win32]
 
+  turbo-windows-arm64@2.8.13:
+    resolution: {integrity: sha512-R819HShLIT0Wj6zWVnIsYvSNtRNj1q9VIyaUz0P24SMcLCbQZIm1sV09F4SDbg+KCCumqD2lcaR2UViQ8SnUJA==}
+    cpu: [arm64]
+    os: [win32]
+
   turbo@2.8.12:
     resolution: {integrity: sha512-auUAMLmi0eJhxDhQrxzvuhfEbICnVt0CTiYQYY8WyRJ5nwCDZxD0JG8bCSxT4nusI2CwJzmZAay5BfF6LmK7Hw==}
+    hasBin: true
+
+  turbo@2.8.13:
+    resolution: {integrity: sha512-nyM99hwFB9/DHaFyKEqatdayGjsMNYsQ/XBNO6MITc7roncZetKb97MpHxWf3uiU+LB9c9HUlU3Jp2Ixei2k1A==}
     hasBin: true
 
   type-check@0.4.0:
@@ -4533,7 +4567,7 @@ snapshots:
 
   '@next/env@16.1.6': {}
 
-  '@next/eslint-plugin-next@16.2.0-canary.72':
+  '@next/eslint-plugin-next@16.2.0-canary.77':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4626,16 +4660,16 @@ snapshots:
 
   '@storybook/global@5.0.0': {}
 
-  '@storybook/react-dom-shim@10.2.14(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))':
+  '@storybook/react-dom-shim@10.2.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))':
     dependencies:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
       storybook: 8.6.14(prettier@3.8.1)
 
-  '@storybook/react@10.2.14(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))(typescript@5.9.3)':
+  '@storybook/react@10.2.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))(typescript@5.9.3)':
     dependencies:
       '@storybook/global': 5.0.0
-      '@storybook/react-dom-shim': 10.2.14(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))
+      '@storybook/react-dom-shim': 10.2.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@8.6.14(prettier@3.8.1))
       react: 19.2.4
       react-docgen: 8.0.2
       react-dom: 19.2.4(react@19.2.4)
@@ -5597,9 +5631,9 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-next@16.2.0-canary.72(@typescript-eslint/parser@8.46.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3):
+  eslint-config-next@16.2.0-canary.77(@typescript-eslint/parser@8.46.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.2.0-canary.72
+      '@next/eslint-plugin-next': 16.2.0-canary.77
       eslint: 10.0.2(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.46.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1)))(eslint@10.0.2(jiti@2.6.1))
@@ -5621,11 +5655,11 @@ snapshots:
     dependencies:
       eslint: 10.0.2(jiti@2.6.1)
 
-  eslint-config-turbo@2.8.12(eslint@10.0.2(jiti@2.6.1))(turbo@2.8.12):
+  eslint-config-turbo@2.8.13(eslint@10.0.2(jiti@2.6.1))(turbo@2.8.13):
     dependencies:
       eslint: 10.0.2(jiti@2.6.1)
-      eslint-plugin-turbo: 2.8.12(eslint@10.0.2(jiti@2.6.1))(turbo@2.8.12)
-      turbo: 2.8.12
+      eslint-plugin-turbo: 2.8.13(eslint@10.0.2(jiti@2.6.1))(turbo@2.8.13)
+      turbo: 2.8.13
 
   eslint-import-resolver-node@0.3.9:
     dependencies:
@@ -5742,11 +5776,11 @@ snapshots:
       string.prototype.matchall: 4.0.12
       string.prototype.repeat: 1.0.0
 
-  eslint-plugin-turbo@2.8.12(eslint@10.0.2(jiti@2.6.1))(turbo@2.8.12):
+  eslint-plugin-turbo@2.8.13(eslint@10.0.2(jiti@2.6.1))(turbo@2.8.13):
     dependencies:
       dotenv: 16.0.3
       eslint: 10.0.2(jiti@2.6.1)
-      turbo: 2.8.12
+      turbo: 2.8.13
 
   eslint-scope@9.1.1:
     dependencies:
@@ -7367,19 +7401,37 @@ snapshots:
   turbo-darwin-64@2.8.12:
     optional: true
 
+  turbo-darwin-64@2.8.13:
+    optional: true
+
   turbo-darwin-arm64@2.8.12:
+    optional: true
+
+  turbo-darwin-arm64@2.8.13:
     optional: true
 
   turbo-linux-64@2.8.12:
     optional: true
 
+  turbo-linux-64@2.8.13:
+    optional: true
+
   turbo-linux-arm64@2.8.12:
+    optional: true
+
+  turbo-linux-arm64@2.8.13:
     optional: true
 
   turbo-windows-64@2.8.12:
     optional: true
 
+  turbo-windows-64@2.8.13:
+    optional: true
+
   turbo-windows-arm64@2.8.12:
+    optional: true
+
+  turbo-windows-arm64@2.8.13:
     optional: true
 
   turbo@2.8.12:
@@ -7390,6 +7442,15 @@ snapshots:
       turbo-linux-arm64: 2.8.12
       turbo-windows-64: 2.8.12
       turbo-windows-arm64: 2.8.12
+
+  turbo@2.8.13:
+    optionalDependencies:
+      turbo-darwin-64: 2.8.13
+      turbo-darwin-arm64: 2.8.13
+      turbo-linux-64: 2.8.13
+      turbo-linux-arm64: 2.8.13
+      turbo-windows-64: 2.8.13
+      turbo-windows-arm64: 2.8.13
 
   type-check@0.4.0:
     dependencies:
