@@ -25,7 +25,7 @@ importers:
         version: 9.1.7
       lint-staged:
         specifier: ^17.0.0
-        version: 17.0.2
+        version: 17.0.3
       prettier:
         specifier: ^3.0.0
         version: 3.8.3
@@ -215,7 +215,7 @@ importers:
         version: 10.3.0(jiti@2.6.1)
       eslint-config-next:
         specifier: canary
-        version: 16.3.0-canary.14(@typescript-eslint/parser@8.57.2(eslint@10.3.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.3.0(jiti@2.6.1))(typescript@5.9.3)
+        version: 16.3.0-canary.16(@typescript-eslint/parser@8.57.2(eslint@10.3.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.3.0(jiti@2.6.1))(typescript@5.9.3)
       eslint-config-prettier:
         specifier: ^10.0.0
         version: 10.1.8(eslint@10.3.0(jiti@2.6.1))
@@ -855,8 +855,8 @@ packages:
   '@next/env@16.2.6':
     resolution: {integrity: sha512-gd8HoHN4ufj73WmR3JmVolrpJR47ILK6LouP5xElPglaVxir6e1a7VzvTvDWkOoPXT9rkkTzyCxBu4yeZfZwcw==}
 
-  '@next/eslint-plugin-next@16.3.0-canary.14':
-    resolution: {integrity: sha512-RxDallrQ9nMaE9ZKJJCi59mrxACJk0XWEeyA5SkcyGoesZT7Bv9p2G7WF8fD45vHML9sl525ooTsZSFpPmTnjw==}
+  '@next/eslint-plugin-next@16.3.0-canary.16':
+    resolution: {integrity: sha512-2R1HDo5uCNip2CuocmHFA4TdhoGEda5iJlCpeUOK65xvn8ABDW2mx0YpqF1nb99W5zkvqUDkQKGn8orcig4HfA==}
 
   '@next/swc-darwin-arm64@16.2.1':
     resolution: {integrity: sha512-BwZ8w8YTaSEr2HIuXLMLxIdElNMPvY9fLqb20LX9A9OMGtJilhHLbCL3ggyd0TwjmMcTxi0XXt+ur1vWUoxj2Q==}
@@ -1993,8 +1993,8 @@ packages:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
 
-  eslint-config-next@16.3.0-canary.14:
-    resolution: {integrity: sha512-83BTBqKCfoNQe0Y6K7h5smsA1yqDkMLhVdtbtN4nDagIn56DdScXWtEvlzqaMiNh+MfHvBJ8ytnTKxl1GAXHkA==}
+  eslint-config-next@16.3.0-canary.16:
+    resolution: {integrity: sha512-taTpd2agKf/lmel14l8QgKswl7w0qp5U+qW5jahZxbJ5YEojWCOAGFea/RUsbNWBYBvdaz2oJChLW3SbQbtNoQ==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -2676,8 +2676,8 @@ packages:
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  lint-staged@17.0.2:
-    resolution: {integrity: sha512-Rbr6rdmbCn1fIDHBZpn0madg0hEkdlh+QwajnL3Qq0ZUq/icAJfLGj9BVBajAXi7657ZzKQ7kobGP9S5XOHYRw==}
+  lint-staged@17.0.3:
+    resolution: {integrity: sha512-wnvMRhzC3GNpjixxleiG+pAW09dHTUgBCjMS7XouAg5E7wKUc8YdfogpF7zIgvXKDbH+452O6+XpnKm6V67rPw==}
     engines: {node: '>=22.22.1'}
     hasBin: true
 
@@ -4389,7 +4389,7 @@ snapshots:
 
   '@next/env@16.2.6': {}
 
-  '@next/eslint-plugin-next@16.3.0-canary.14':
+  '@next/eslint-plugin-next@16.3.0-canary.16':
     dependencies:
       fast-glob: 3.3.1
 
@@ -5533,9 +5533,9 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-next@16.3.0-canary.14(@typescript-eslint/parser@8.57.2(eslint@10.3.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.3.0(jiti@2.6.1))(typescript@5.9.3):
+  eslint-config-next@16.3.0-canary.16(@typescript-eslint/parser@8.57.2(eslint@10.3.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.3.0(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.3.0-canary.14
+      '@next/eslint-plugin-next': 16.3.0-canary.16
       eslint: 10.3.0(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.3.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.3.0(jiti@2.6.1)))(eslint@10.3.0(jiti@2.6.1))
@@ -6329,7 +6329,7 @@ snapshots:
 
   lines-and-columns@1.2.4: {}
 
-  lint-staged@17.0.2:
+  lint-staged@17.0.3:
     dependencies:
       listr2: 10.2.1
       picomatch: 4.0.4
@@ -6471,7 +6471,7 @@ snapshots:
       postcss: 8.4.31
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
-      styled-jsx: 5.1.6(@babel/core@7.29.0)(react@19.2.6)
+      styled-jsx: 5.1.6(react@19.2.6)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.2.6
       '@next/swc-darwin-x64': 16.2.6
@@ -7180,6 +7180,11 @@ snapshots:
       react: 19.2.6
     optionalDependencies:
       '@babel/core': 7.29.0
+
+  styled-jsx@5.1.6(react@19.2.6):
+    dependencies:
+      client-only: 0.0.1
+      react: 19.2.6
 
   sucrase@3.35.1:
     dependencies:
