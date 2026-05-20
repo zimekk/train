@@ -56,7 +56,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.14
+        version: 19.2.15
       autoprefixer:
         specifier: ^10.4.12
         version: 10.5.0(postcss@8.5.15)
@@ -99,7 +99,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.14
+        version: 19.2.15
       autoprefixer:
         specifier: ^10.4.12
         version: 10.5.0(postcss@8.5.15)
@@ -139,7 +139,7 @@ importers:
     devDependencies:
       '@storybook/react':
         specifier: ^10.0.0
-        version: 10.4.0(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(typescript@5.9.3)
+        version: 10.4.0(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(typescript@5.9.3)
       '@swc/cli':
         specifier: ^0.1.62
         version: 0.1.65(@swc/core@1.15.21(@swc/helpers@0.5.19))(chokidar@5.0.0)
@@ -148,7 +148,7 @@ importers:
         version: 1.15.21(@swc/helpers@0.5.19)
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.14
+        version: 19.2.15
       chokidar:
         specifier: ^5.0.0
         version: 5.0.0
@@ -194,7 +194,7 @@ importers:
         version: 1.15.21(@swc/helpers@0.5.19)
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.14
+        version: 19.2.15
       chokidar:
         specifier: ^5.0.0
         version: 5.0.0
@@ -215,7 +215,7 @@ importers:
         version: 10.4.0(jiti@2.6.1)
       eslint-config-next:
         specifier: canary
-        version: 16.3.0-canary.22(@typescript-eslint/parser@8.57.2(eslint@10.4.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.4.0(jiti@2.6.1))(typescript@5.9.3)
+        version: 16.3.0-canary.23(@typescript-eslint/parser@8.57.2(eslint@10.4.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.4.0(jiti@2.6.1))(typescript@5.9.3)
       eslint-config-prettier:
         specifier: ^10.0.0
         version: 10.1.8(eslint@10.4.0(jiti@2.6.1))
@@ -860,8 +860,8 @@ packages:
   '@next/env@16.2.6':
     resolution: {integrity: sha512-gd8HoHN4ufj73WmR3JmVolrpJR47ILK6LouP5xElPglaVxir6e1a7VzvTvDWkOoPXT9rkkTzyCxBu4yeZfZwcw==}
 
-  '@next/eslint-plugin-next@16.3.0-canary.22':
-    resolution: {integrity: sha512-wClTVhoJjjvroHU5azN+PgswbtXgN0WiSJW1EsChDq35JAIAoRv+hNjQUDZMDdKmHVYb2wyN+vgLaBK71/IT+g==}
+  '@next/eslint-plugin-next@16.3.0-canary.23':
+    resolution: {integrity: sha512-jkY0+P4flczpG22MqmxWccWlKgF0uvz0CwT9iPlAoSzG/ktUz8hRLetUKr6s8t+THQNGZMhneHp/KpnNArXP9A==}
 
   '@next/swc-darwin-arm64@16.2.1':
     resolution: {integrity: sha512-BwZ8w8YTaSEr2HIuXLMLxIdElNMPvY9fLqb20LX9A9OMGtJilhHLbCL3ggyd0TwjmMcTxi0XXt+ur1vWUoxj2Q==}
@@ -1262,8 +1262,8 @@ packages:
   '@types/node@25.6.2':
     resolution: {integrity: sha512-sokuT28dxf9JT5Kady1fsXOvI4HVpjZa95NKT5y9PNTIrs2AsobR4GFAA90ZG8M+nxVRLysCXsVj6eGC7Vbrlw==}
 
-  '@types/react@19.2.14':
-    resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
+  '@types/react@19.2.15':
+    resolution: {integrity: sha512-eRwcGNHve+E8qtEQSSRl6urh+rFop4v8gm6O8rGv25CodbvFdLjA1vVQ1KkiFE0w0UPOnb8tDiFKL5lp0rtY5Q==}
 
   '@types/resolve@1.20.6':
     resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
@@ -2011,8 +2011,8 @@ packages:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
 
-  eslint-config-next@16.3.0-canary.22:
-    resolution: {integrity: sha512-9+A4g3jW+OcGjPt8mNgyXbCR2yqgCuckFz4phZIgRqqugTMLZ+s9bDPJgeAOpbIIHma0gut9rMla8AlLkbnPPg==}
+  eslint-config-next@16.3.0-canary.23:
+    resolution: {integrity: sha512-ceDxjcXkz3Y16bj4ijo/9Ph4YkvYqrYsfhFH+0dEUQVFBmicyT9Q/SlfDO+aEQ901lXbpNlX3fv9xmNrjGgniA==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -4428,7 +4428,7 @@ snapshots:
 
   '@next/env@16.2.6': {}
 
-  '@next/eslint-plugin-next@16.3.0-canary.22':
+  '@next/eslint-plugin-next@16.3.0-canary.23':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4511,25 +4511,25 @@ snapshots:
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
 
-  '@storybook/react-dom-shim@10.4.0(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))':
+  '@storybook/react-dom-shim@10.4.0(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))':
     dependencies:
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
       storybook: 10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.2.15
 
-  '@storybook/react@10.4.0(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(typescript@5.9.3)':
+  '@storybook/react@10.4.0(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(typescript@5.9.3)':
     dependencies:
       '@storybook/global': 5.0.0
-      '@storybook/react-dom-shim': 10.4.0(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))
+      '@storybook/react-dom-shim': 10.4.0(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))
       react: 19.2.6
       react-docgen: 8.0.3
       react-docgen-typescript: 2.4.0(typescript@5.9.3)
       react-dom: 19.2.6(react@19.2.6)
       storybook: 10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.2.15
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
@@ -4741,7 +4741,7 @@ snapshots:
     dependencies:
       undici-types: 7.19.2
 
-  '@types/react@19.2.14':
+  '@types/react@19.2.15':
     dependencies:
       csstype: 3.2.3
 
@@ -5575,9 +5575,9 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-next@16.3.0-canary.22(@typescript-eslint/parser@8.57.2(eslint@10.4.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.4.0(jiti@2.6.1))(typescript@5.9.3):
+  eslint-config-next@16.3.0-canary.23(@typescript-eslint/parser@8.57.2(eslint@10.4.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.4.0(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.3.0-canary.22
+      '@next/eslint-plugin-next': 16.3.0-canary.23
       eslint: 10.4.0(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.4.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.4.0(jiti@2.6.1)))(eslint@10.4.0(jiti@2.6.1))
