@@ -56,7 +56,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.16
+        version: 19.2.17
       autoprefixer:
         specifier: ^10.4.12
         version: 10.5.0(postcss@8.5.15)
@@ -99,7 +99,7 @@ importers:
     devDependencies:
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.16
+        version: 19.2.17
       autoprefixer:
         specifier: ^10.4.12
         version: 10.5.0(postcss@8.5.15)
@@ -139,7 +139,7 @@ importers:
     devDependencies:
       '@storybook/react':
         specifier: ^10.0.0
-        version: 10.4.2(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@5.9.3)
+        version: 10.4.2(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@5.9.3)
       '@swc/cli':
         specifier: ^0.1.62
         version: 0.1.65(@swc/core@1.15.21(@swc/helpers@0.5.19))(chokidar@5.0.0)
@@ -148,7 +148,7 @@ importers:
         version: 1.15.21(@swc/helpers@0.5.19)
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.16
+        version: 19.2.17
       chokidar:
         specifier: ^5.0.0
         version: 5.0.0
@@ -194,7 +194,7 @@ importers:
         version: 1.15.21(@swc/helpers@0.5.19)
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.16
+        version: 19.2.17
       chokidar:
         specifier: ^5.0.0
         version: 5.0.0
@@ -215,7 +215,7 @@ importers:
         version: 10.4.1(jiti@2.6.1)
       eslint-config-next:
         specifier: canary
-        version: 16.3.0-canary.39(@typescript-eslint/parser@8.57.2(eslint@10.4.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.4.1(jiti@2.6.1))(typescript@5.9.3)
+        version: 16.3.0-canary.40(@typescript-eslint/parser@8.57.2(eslint@10.4.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.4.1(jiti@2.6.1))(typescript@5.9.3)
       eslint-config-prettier:
         specifier: ^10.0.0
         version: 10.1.8(eslint@10.4.1(jiti@2.6.1))
@@ -906,8 +906,8 @@ packages:
   '@next/env@16.2.7':
     resolution: {integrity: sha512-tMJizPlj6ZYpBMMdK8S0LJufrP4QTdR6pcv9KQ/bVETPAmg0j1mlHE9G2c38UyGHxoBapgwuj7XjbGJ2RcDFOg==}
 
-  '@next/eslint-plugin-next@16.3.0-canary.39':
-    resolution: {integrity: sha512-uUYNb6WuZyDcQwGqZ5XneGUNYlXVPn4wuXJVilamlucqjoRo9MtW2DBM/5+E6A1yl+tRZpJ3YQ5MzILwvSKkOA==}
+  '@next/eslint-plugin-next@16.3.0-canary.40':
+    resolution: {integrity: sha512-UXjqweKW2uCx7lsejEG7l+zVfmFZ34euxr8YoMVBXus9hLWf4TZWkjsDFGznRj3NMKwfd2qPrGxs2S9nYrNnFQ==}
 
   '@next/swc-darwin-arm64@16.2.1':
     resolution: {integrity: sha512-BwZ8w8YTaSEr2HIuXLMLxIdElNMPvY9fLqb20LX9A9OMGtJilhHLbCL3ggyd0TwjmMcTxi0XXt+ur1vWUoxj2Q==}
@@ -1308,8 +1308,8 @@ packages:
   '@types/node@25.9.1':
     resolution: {integrity: sha512-xfrlY7UD5rMJk3ZVJP8BNzS28J36YJg+xp+LPXV1TdWxr8uMH5A860QNxYDGQe/ylDSgjxE52Q9VnO7p75tJxg==}
 
-  '@types/react@19.2.16':
-    resolution: {integrity: sha512-esJiCAnl0kfpNdE69f3So4WJUXy95dLZydX0KwK46riIHDzHM7O9Vtf9xCHW0PXIqvgqNrswl522kA/5yx+F4w==}
+  '@types/react@19.2.17':
+    resolution: {integrity: sha512-MXfmqaVPEVgkBT/aY0aGCkRWWtByiYQXo3xdQ8r5RzuFrPiRn8Gar2tQdXSUQ2GKV3bkXckek89V8wQBY2Q/Aw==}
 
   '@types/resolve@1.20.6':
     resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
@@ -2057,8 +2057,8 @@ packages:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
 
-  eslint-config-next@16.3.0-canary.39:
-    resolution: {integrity: sha512-griJwV822slYeCVtyRKyjfF7VqqU6CHKJ5vbfjbcY9u7aITCuclK5EWBsI7tBWqbW3efzPppiYnWGysuZyYLEA==}
+  eslint-config-next@16.3.0-canary.40:
+    resolution: {integrity: sha512-NYKF/OBEPWSZ6a7ZUPdfikUP4y8ag3ovcSula+3WW5aBFzlrlBjj8CZkc3shhpqlX9oqNgjBVr0TrKHD+XMH3g==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -3374,6 +3374,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.8.2:
+    resolution: {integrity: sha512-c8jsqUZm3omBOI66G90z1Dyw5z622G8oLG+omfsHBJf3CWQTlOcwOjvOG6wtiNfW6anKm/eA39LMwMtMez2TiQ==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   set-function-length@1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
     engines: {node: '>= 0.4'}
@@ -4562,7 +4567,7 @@ snapshots:
 
   '@next/env@16.2.7': {}
 
-  '@next/eslint-plugin-next@16.3.0-canary.39':
+  '@next/eslint-plugin-next@16.3.0-canary.40':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4645,25 +4650,25 @@ snapshots:
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
 
-  '@storybook/react-dom-shim@10.4.2(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))':
+  '@storybook/react-dom-shim@10.4.2(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))':
     dependencies:
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
       storybook: 10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
     optionalDependencies:
-      '@types/react': 19.2.16
+      '@types/react': 19.2.17
 
-  '@storybook/react@10.4.2(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@5.9.3)':
+  '@storybook/react@10.4.2(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@5.9.3)':
     dependencies:
       '@storybook/global': 5.0.0
-      '@storybook/react-dom-shim': 10.4.2(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
+      '@storybook/react-dom-shim': 10.4.2(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(storybook@10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
       react: 19.2.7
       react-docgen: 8.0.3
       react-docgen-typescript: 2.4.0(typescript@5.9.3)
       react-dom: 19.2.7(react@19.2.7)
       storybook: 10.3.3(@testing-library/dom@10.4.1)(prettier@3.8.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
     optionalDependencies:
-      '@types/react': 19.2.16
+      '@types/react': 19.2.17
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
@@ -4875,7 +4880,7 @@ snapshots:
     dependencies:
       undici-types: 7.24.6
 
-  '@types/react@19.2.16':
+  '@types/react@19.2.17':
     dependencies:
       csstype: 3.2.3
 
@@ -5709,9 +5714,9 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-next@16.3.0-canary.39(@typescript-eslint/parser@8.57.2(eslint@10.4.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.4.1(jiti@2.6.1))(typescript@5.9.3):
+  eslint-config-next@16.3.0-canary.40(@typescript-eslint/parser@8.57.2(eslint@10.4.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.4.1(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.3.0-canary.39
+      '@next/eslint-plugin-next': 16.3.0-canary.40
       eslint: 10.4.1(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.4.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.4.1(jiti@2.6.1)))(eslint@10.4.1(jiti@2.6.1))
@@ -7118,6 +7123,8 @@ snapshots:
 
   semver@7.8.1: {}
 
+  semver@7.8.2: {}
+
   set-function-length@1.2.2:
     dependencies:
       define-data-property: 1.1.4
@@ -7267,7 +7274,7 @@ snapshots:
       esbuild: 0.27.7
       open: 10.2.0
       recast: 0.23.11
-      semver: 7.8.1
+      semver: 7.8.2
       use-sync-external-store: 1.6.0(react@19.2.7)
       ws: 8.21.0
     optionalDependencies:
