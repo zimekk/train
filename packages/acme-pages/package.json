@@ -50,7 +50,7 @@
   "dependencies": {
     "@acme/design-system": "workspace:*",
     "@swc/helpers": "^0.5.1",
-    "@vercel/examples-ui": "^1.0.5",
+    "@vercel/examples-ui": "^2.0.0",
     "clsx": "^2.0.0"
   },
   "devDependencies": {
