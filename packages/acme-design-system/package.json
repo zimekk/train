@@ -62,7 +62,7 @@
   },
   "devDependencies": {
     "@storybook/react": "^10.0.0",
-    "@swc/cli": "^0.1.62",
+    "@swc/cli": "^0.8.0",
     "@swc/core": "^1.3.53",
     "@types/react": "^19.0.0",
     "chokidar": "^5.0.0",
